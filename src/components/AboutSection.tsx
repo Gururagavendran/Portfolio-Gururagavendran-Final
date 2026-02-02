@@ -1,28 +1,28 @@
 import { motion } from "framer-motion";
 import { useInView } from "framer-motion";
 import { useRef } from "react";
-import { Code2, Palette, Rocket, Sparkles } from "lucide-react";
+import { Users, Lightbulb, BookOpen, MessageCircle } from "lucide-react";
 
 const highlights = [
   {
-    icon: Code2,
-    title: "Clean Code",
-    description: "Writing maintainable, scalable solutions",
+    icon: Users,
+    title: "Collaborative",
+    description: "Team player with internship experience",
   },
   {
-    icon: Palette,
-    title: "Design Eye",
-    description: "Creating visually stunning interfaces",
-  },
-  {
-    icon: Rocket,
-    title: "Fast Learner",
-    description: "Adapting to new technologies quickly",
-  },
-  {
-    icon: Sparkles,
+    icon: Lightbulb,
     title: "Creative Mind",
-    description: "Bringing innovative ideas to life",
+    description: "Innovative approach to problem-solving",
+  },
+  {
+    icon: BookOpen,
+    title: "Adaptive Learner",
+    description: "Quick to pick up new technologies",
+  },
+  {
+    icon: MessageCircle,
+    title: "Communication",
+    description: "Clear technical & professional skills",
   },
 ];
 
@@ -53,16 +53,16 @@ const AboutSection = () => {
                 
                 {/* Avatar placeholder */}
                 <div className="w-48 h-48 mx-auto mb-6 rounded-2xl bg-gradient-to-br from-primary/20 via-accent/20 to-secondary/20 flex items-center justify-center">
-                  <span className="font-display text-6xl gradient-text font-bold">JD</span>
+                  <span className="font-display text-6xl gradient-text font-bold">GG</span>
                 </div>
                 
                 {/* Quick Info */}
                 <div className="text-center">
-                  <h3 className="font-display text-2xl font-bold mb-2">John Doe</h3>
-                  <p className="text-muted-foreground mb-4">Final Year Student</p>
-                  <div className="flex items-center justify-center gap-2 text-sm">
+                  <h3 className="font-display text-2xl font-bold mb-2">G Gururagavendran</h3>
+                  <p className="text-muted-foreground mb-4">CSE Undergraduate</p>
+                  <div className="flex items-center justify-center gap-2 text-sm flex-wrap">
                     <span className="px-3 py-1 rounded-full bg-primary/20 text-primary">B.Tech CSE</span>
-                    <span className="px-3 py-1 rounded-full bg-secondary/20 text-secondary">2025</span>
+                    <span className="px-3 py-1 rounded-full bg-secondary/20 text-secondary">Job Seeking</span>
                   </div>
                 </div>
               </div>
@@ -96,17 +96,16 @@ const AboutSection = () => {
             </h2>
             
             <p className="text-lg text-muted-foreground mb-6 leading-relaxed">
-              I'm a passionate final-year Computer Science student with a love for 
-              building digital products. My journey in tech started with curiosity 
-              and has evolved into a deep appreciation for both the art and science 
-              of software development.
+              Passionate Computer Science Engineering undergraduate, eager to kickstart my career 
+              as a Software Developer with a keen interest in designing. I bring strong skills in 
+              communication, technical adaptability, coding, and creativity.
             </p>
             
             <p className="text-lg text-muted-foreground mb-8 leading-relaxed">
-              When I'm not coding, you'll find me exploring new design trends, 
-              contributing to open-source projects, or experimenting with the latest 
-              technologies. I believe in continuous learning and pushing the boundaries 
-              of what's possible.
+              I've interned at <span className="text-primary">iAgami Technologies</span>, <span className="text-secondary">Touchmark Descience</span>, 
+              and <span className="text-accent">Rultosh Edufun</span>, working on real-world projects alongside engineering teams. 
+              I've also actively participated in project expos, symposiums, and technical events 
+              that shaped my practical knowledge and team dynamics.
             </p>
 
             {/* Highlights Grid */}
