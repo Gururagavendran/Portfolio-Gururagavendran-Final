@@ -61,7 +61,7 @@ const HeroSection = () => {
             className="font-display text-5xl md:text-7xl lg:text-8xl font-bold mb-6"
           >
             Hi, I'm{" "}
-            <span className="gradient-text">John Doe</span>
+            <span className="gradient-text">Gururagavendran</span>
           </motion.h1>
 
           {/* Tagline */}
@@ -71,7 +71,7 @@ const HeroSection = () => {
             transition={{ duration: 0.6, delay: 0.2 }}
             className="text-xl md:text-2xl text-muted-foreground mb-8 max-w-2xl mx-auto"
           >
-            Final Year CS Student · Software Developer · UI/UX Enthusiast
+            CSE Undergrad · Software Developer · Designer
           </motion.p>
 
           {/* Description */}
@@ -81,8 +81,8 @@ const HeroSection = () => {
             transition={{ duration: 0.6, delay: 0.3 }}
             className="text-lg text-muted-foreground/80 mb-12 max-w-xl mx-auto"
           >
-            Crafting digital experiences that blend creativity with clean code. 
-            Passionate about building products that make a difference.
+            Passionate about building tech-driven solutions with creativity and collaboration. 
+            Experienced in real-world projects across internships and hackathons.
           </motion.p>
 
           {/* CTA Buttons */}
@@ -108,9 +108,9 @@ const HeroSection = () => {
             className="flex items-center justify-center gap-6"
           >
             {[
-              { icon: Github, href: "#", label: "GitHub" },
-              { icon: Linkedin, href: "#", label: "LinkedIn" },
-              { icon: Mail, href: "#", label: "Email" },
+              { icon: Github, href: "https://github.com/Gururagavendran", label: "GitHub" },
+              { icon: Linkedin, href: "https://www.linkedin.com/in/gururagavendran-g-62a023261/", label: "LinkedIn" },
+              { icon: Mail, href: "mailto:gururagavendran52@gmail.com", label: "Email" },
             ].map((social, index) => (
               <motion.a
                 key={social.label}

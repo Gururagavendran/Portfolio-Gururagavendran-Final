@@ -12,12 +12,12 @@ const Footer = () => {
             className="font-display text-xl font-bold gradient-text"
             whileHover={{ scale: 1.05 }}
           >
-            JD
+            GG
           </motion.a>
 
           {/* Copyright */}
           <p className="text-sm text-muted-foreground flex items-center gap-1">
-            Built with <Heart size={14} className="text-secondary" /> by John Doe © {new Date().getFullYear()}
+            Built with <Heart size={14} className="text-secondary" /> by Gururagavendran © {new Date().getFullYear()}
           </p>
 
           {/* Quick Links */}

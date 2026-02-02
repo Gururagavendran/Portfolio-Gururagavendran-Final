@@ -6,22 +6,22 @@ const skillCategories = [
   {
     title: "Languages",
     color: "primary",
-    skills: ["JavaScript", "TypeScript", "Python", "Java", "C++"],
+    skills: ["Python", "JavaScript", "TypeScript"],
   },
   {
     title: "Frontend",
     color: "secondary",
-    skills: ["React", "Next.js", "Tailwind CSS", "Framer Motion", "HTML/CSS"],
+    skills: ["React", "AngularJS", "HTML/CSS"],
   },
   {
     title: "Backend",
     color: "accent",
-    skills: ["Node.js", "Express", "PostgreSQL", "MongoDB", "REST APIs"],
+    skills: ["Node.js", "Express", "SQL"],
   },
   {
-    title: "Tools & More",
+    title: "Tools",
     color: "primary",
-    skills: ["Git", "Figma", "Docker", "VS Code", "Linux"],
+    skills: ["VS Code", "Git", "Docker", "Figma"],
   },
 ];
 
@@ -47,8 +47,8 @@ const SkillsSection = () => {
             Skills & <span className="gradient-text">Technologies</span>
           </h2>
           <p className="text-lg text-muted-foreground max-w-2xl mx-auto">
-            My toolbox for turning ideas into reality. Constantly learning and 
-            adding new skills to stay ahead in the ever-evolving tech landscape.
+            My toolbox for turning ideas into reality. From frontend frameworks 
+            to computer vision, constantly learning and growing.
           </p>
         </motion.div>
 
@@ -99,7 +99,16 @@ const SkillsSection = () => {
         >
           <p className="text-muted-foreground mb-4">Also familiar with</p>
           <div className="flex flex-wrap justify-center gap-3">
-            {["GraphQL", "Redux", "Firebase", "AWS", "Vercel", "Jest", "Webpack", "Sass"].map((tech, index) => (
+            {[
+              "Computer Vision",
+              "REST APIs",
+              "Anthropic Claude",
+              "Mendix",
+              "Canva",
+              "Atlassian Jira",
+              "BMS Basics",
+              "Sony Vegas",
+            ].map((tech, index) => (
               <motion.span
                 key={tech}
                 initial={{ opacity: 0, scale: 0.8 }}
