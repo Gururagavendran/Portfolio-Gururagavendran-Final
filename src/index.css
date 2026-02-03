@@ -4,67 +4,67 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;400;500;600;700&family=Inter:wght@300;400;500;600;700&display=swap');
 
-/* Bold, Creative, Colorful & Techy Design System */
+/* Bold Red & Black Techy Design System */
 
 @layer base {
   :root {
-    /* Dark techy base */
-    --background: 240 20% 4%;
-    --foreground: 210 40% 98%;
+    /* Deep black base */
+    --background: 0 0% 3%;
+    --foreground: 0 0% 98%;
 
-    /* Cards with glassmorphism feel */
-    --card: 240 15% 8%;
-    --card-foreground: 210 40% 98%;
+    /* Cards with dark glassmorphism */
+    --card: 0 0% 6%;
+    --card-foreground: 0 0% 98%;
 
-    --popover: 240 15% 10%;
-    --popover-foreground: 210 40% 98%;
+    --popover: 0 0% 8%;
+    --popover-foreground: 0 0% 98%;
 
-    /* Vibrant cyan primary */
-    --primary: 185 100% 50%;
-    --primary-foreground: 240 20% 4%;
+    /* Neon red primary */
+    --primary: 0 100% 50%;
+    --primary-foreground: 0 0% 98%;
 
-    /* Electric magenta secondary */
-    --secondary: 320 100% 60%;
-    --secondary-foreground: 210 40% 98%;
+    /* Crimson secondary */
+    --secondary: 350 100% 45%;
+    --secondary-foreground: 0 0% 98%;
 
-    /* Muted surfaces */
-    --muted: 240 15% 15%;
-    --muted-foreground: 215 20% 65%;
+    /* Muted dark surfaces */
+    --muted: 0 5% 12%;
+    --muted-foreground: 0 0% 65%;
 
-    /* Accent - electric purple */
-    --accent: 270 100% 65%;
-    --accent-foreground: 210 40% 98%;
+    /* Orange-red accent */
+    --accent: 15 100% 55%;
+    --accent-foreground: 0 0% 98%;
 
-    /* Warm coral for destructive */
+    /* Destructive stays similar */
     --destructive: 0 85% 60%;
-    --destructive-foreground: 210 40% 98%;
+    --destructive-foreground: 0 0% 98%;
 
-    --border: 240 15% 20%;
-    --input: 240 15% 15%;
-    --ring: 185 100% 50%;
+    --border: 0 10% 18%;
+    --input: 0 5% 12%;
+    --ring: 0 100% 50%;
 
     --radius: 0.75rem;
 
-    /* Custom gradient tokens */
-    --gradient-primary: linear-gradient(135deg, hsl(185 100% 50%) 0%, hsl(270 100% 65%) 50%, hsl(320 100% 60%) 100%);
-    --gradient-glow: linear-gradient(135deg, hsl(185 100% 50% / 0.3) 0%, hsl(320 100% 60% / 0.3) 100%);
-    --gradient-card: linear-gradient(145deg, hsl(240 15% 10% / 0.8) 0%, hsl(240 15% 6% / 0.9) 100%);
-    --gradient-hero: radial-gradient(ellipse at top, hsl(270 100% 65% / 0.15) 0%, transparent 50%);
+    /* Red & black gradient tokens */
+    --gradient-primary: linear-gradient(135deg, hsl(0 100% 50%) 0%, hsl(350 100% 45%) 50%, hsl(15 100% 55%) 100%);
+    --gradient-glow: linear-gradient(135deg, hsl(0 100% 50% / 0.3) 0%, hsl(15 100% 55% / 0.3) 100%);
+    --gradient-card: linear-gradient(145deg, hsl(0 5% 8% / 0.9) 0%, hsl(0 0% 4% / 0.95) 100%);
+    --gradient-hero: radial-gradient(ellipse at top, hsl(0 100% 50% / 0.12) 0%, transparent 50%);
     
-    /* Glow effects */
-    --glow-primary: 0 0 40px hsl(185 100% 50% / 0.4);
-    --glow-accent: 0 0 40px hsl(270 100% 65% / 0.4);
-    --glow-secondary: 0 0 40px hsl(320 100% 60% / 0.4);
+    /* Neon glow effects */
+    --glow-primary: 0 0 40px hsl(0 100% 50% / 0.5);
+    --glow-accent: 0 0 40px hsl(15 100% 55% / 0.4);
+    --glow-secondary: 0 0 40px hsl(350 100% 45% / 0.4);
 
     /* Sidebar tokens */
-    --sidebar-background: 240 15% 6%;
-    --sidebar-foreground: 210 40% 98%;
-    --sidebar-primary: 185 100% 50%;
-    --sidebar-primary-foreground: 240 20% 4%;
-    --sidebar-accent: 270 100% 65%;
-    --sidebar-accent-foreground: 210 40% 98%;
-    --sidebar-border: 240 15% 20%;
-    --sidebar-ring: 185 100% 50%;
+    --sidebar-background: 0 0% 5%;
+    --sidebar-foreground: 0 0% 98%;
+    --sidebar-primary: 0 100% 50%;
+    --sidebar-primary-foreground: 0 0% 98%;
+    --sidebar-accent: 15 100% 55%;
+    --sidebar-accent-foreground: 0 0% 98%;
+    --sidebar-border: 0 10% 18%;
+    --sidebar-ring: 0 100% 50%;
   }
 }
 
@@ -136,7 +136,7 @@
 
   @keyframes pulse-glow {
     0%, 100% { box-shadow: var(--glow-primary); }
-    50% { box-shadow: 0 0 60px hsl(185 100% 50% / 0.6); }
+    50% { box-shadow: 0 0 60px hsl(0 100% 50% / 0.6); }
   }
 }
 

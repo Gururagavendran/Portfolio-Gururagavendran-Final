@@ -9,15 +9,15 @@ const buttonVariants = cva(
   {
     variants: {
       variant: {
-        default: "bg-primary text-primary-foreground hover:bg-primary/90 hover:shadow-[0_0_30px_hsl(185_100%_50%_/_0.4)]",
+        default: "bg-primary text-primary-foreground hover:bg-primary/90 hover:shadow-[0_0_30px_hsl(0_100%_50%_/_0.5)]",
         destructive: "bg-destructive text-destructive-foreground hover:bg-destructive/90",
         outline: "border border-border bg-transparent hover:bg-muted hover:text-foreground",
-        secondary: "bg-secondary text-secondary-foreground hover:bg-secondary/80 hover:shadow-[0_0_30px_hsl(320_100%_60%_/_0.4)]",
+        secondary: "bg-secondary text-secondary-foreground hover:bg-secondary/80 hover:shadow-[0_0_30px_hsl(350_100%_45%_/_0.5)]",
         ghost: "hover:bg-muted hover:text-foreground",
         link: "text-primary underline-offset-4 hover:underline",
-        hero: "bg-gradient-to-r from-primary via-accent to-secondary text-primary-foreground font-semibold hover:shadow-[0_0_40px_hsl(185_100%_50%_/_0.5)] hover:scale-105 active:scale-100",
-        heroOutline: "border-2 border-primary bg-transparent text-primary hover:bg-primary/10 hover:shadow-[0_0_30px_hsl(185_100%_50%_/_0.3)]",
-        glow: "bg-primary/20 text-primary border border-primary/50 hover:bg-primary hover:text-primary-foreground hover:shadow-[0_0_30px_hsl(185_100%_50%_/_0.5)]",
+        hero: "bg-gradient-to-r from-primary via-accent to-secondary text-primary-foreground font-semibold hover:shadow-[0_0_40px_hsl(0_100%_50%_/_0.6)] hover:scale-105 active:scale-100",
+        heroOutline: "border-2 border-primary bg-transparent text-primary hover:bg-primary/10 hover:shadow-[0_0_30px_hsl(0_100%_50%_/_0.4)]",
+        glow: "bg-primary/20 text-primary border border-primary/50 hover:bg-primary hover:text-primary-foreground hover:shadow-[0_0_30px_hsl(0_100%_50%_/_0.6)]",
       },
       size: {
         default: "h-10 px-4 py-2",
