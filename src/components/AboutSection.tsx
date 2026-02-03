@@ -96,9 +96,11 @@ const AboutSection = () => {
             </h2>
             
             <p className="text-lg text-muted-foreground mb-6 leading-relaxed">
-              Passionate Computer Science Engineering undergraduate, eager to kickstart my career 
-              as a Software Developer with a keen interest in designing. I bring strong skills in 
-              communication, technical adaptability, coding, and creativity.
+              Passionate Computer Science Engineering undergraduate, currently working as a 
+              <span className="text-primary font-medium"> Junior Developer (Trainee)</span> at 
+              <span className="text-primary font-medium"> SIDBI, Chennai</span> under their VCF Project. 
+              Eager to grow as a Software Developer with a keen interest in designing, bringing strong 
+              skills in communication, technical adaptability, coding, and creativity.
             </p>
             
             <p className="text-lg text-muted-foreground mb-8 leading-relaxed">
