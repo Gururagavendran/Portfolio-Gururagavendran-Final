@@ -103,9 +103,9 @@ const SkillsSection = () => {
               "Computer Vision",
               "REST APIs",
               "Anthropic Claude",
-              "Mendix",
+              "SonarQube",
               "Canva",
-              "Atlassian Jira",
+              "OWASP ZAP",
               "BMS Basics",
               "Sony Vegas",
             ].map((tech, index) => (
