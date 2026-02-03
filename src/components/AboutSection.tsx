@@ -59,10 +59,10 @@ const AboutSection = () => {
                 {/* Quick Info */}
                 <div className="text-center">
                   <h3 className="font-display text-2xl font-bold mb-2">G Gururagavendran</h3>
-                  <p className="text-muted-foreground mb-4">CSE Undergraduate</p>
+                  <p className="text-muted-foreground mb-4">Junior Developer @ SIDBI</p>
                   <div className="flex items-center justify-center gap-2 text-sm flex-wrap">
-                    <span className="px-3 py-1 rounded-full bg-primary/20 text-primary">B.Tech CSE</span>
-                    <span className="px-3 py-1 rounded-full bg-secondary/20 text-secondary">Job Seeking</span>
+                    <span className="px-3 py-1 rounded-full bg-primary/20 text-primary">BE CSE</span>
+                    <span className="px-3 py-1 rounded-full bg-secondary/20 text-secondary">VCF Project</span>
                   </div>
                 </div>
               </div>
