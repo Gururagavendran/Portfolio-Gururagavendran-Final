@@ -61,18 +61,18 @@ export default {
           border: "hsl(var(--sidebar-border))",
           ring: "hsl(var(--sidebar-ring))",
         },
-        // Custom techy colors
-        cyan: {
-          DEFAULT: "hsl(185 100% 50%)",
-          glow: "hsl(185 100% 50% / 0.4)",
+        // Custom neon red colors
+        neonRed: {
+          DEFAULT: "hsl(0 100% 50%)",
+          glow: "hsl(0 100% 50% / 0.5)",
         },
-        magenta: {
-          DEFAULT: "hsl(320 100% 60%)",
-          glow: "hsl(320 100% 60% / 0.4)",
+        crimson: {
+          DEFAULT: "hsl(350 100% 45%)",
+          glow: "hsl(350 100% 45% / 0.4)",
         },
-        electric: {
-          DEFAULT: "hsl(270 100% 65%)",
-          glow: "hsl(270 100% 65% / 0.4)",
+        ember: {
+          DEFAULT: "hsl(15 100% 55%)",
+          glow: "hsl(15 100% 55% / 0.4)",
         },
       },
       borderRadius: {
@@ -111,7 +111,7 @@ export default {
       },
       backgroundImage: {
         "gradient-radial": "radial-gradient(var(--tw-gradient-stops))",
-        "hero-glow": "radial-gradient(ellipse at center, hsl(270 100% 65% / 0.15) 0%, transparent 70%)",
+        "hero-glow": "radial-gradient(ellipse at center, hsl(0 100% 50% / 0.12) 0%, transparent 70%)",
       },
     },
   },
