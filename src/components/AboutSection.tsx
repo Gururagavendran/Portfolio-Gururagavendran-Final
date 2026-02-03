@@ -95,7 +95,7 @@ const AboutSection = () => {
               About <span className="gradient-text">Me</span>
             </h2>
             
-            <p className="text-lg text-muted-foreground mb-6 leading-relaxed">
+            <p className="text-lg text-muted-foreground mb-6 leading-relaxed text-justify">
               Passionate Computer Science Engineering undergraduate, currently working as a 
               <span className="text-primary font-medium"> Junior Developer (Trainee)</span> at 
               <span className="text-primary font-medium"> SIDBI, Chennai</span> under their VCF Project. 
@@ -103,9 +103,9 @@ const AboutSection = () => {
               skills in communication, technical adaptability, coding, and creativity.
             </p>
             
-            <p className="text-lg text-muted-foreground mb-8 leading-relaxed">
-              I've interned at <span className="text-primary">iAgami Technologies</span>, <span className="text-secondary">Touchmark Descience</span>, 
-              and <span className="text-accent">Rultosh Edufun</span>, working on real-world projects alongside engineering teams. 
+            <p className="text-lg text-muted-foreground mb-8 leading-relaxed text-justify">
+              I've interned at <span className="text-primary font-medium">iAgami Technologies</span>, <span className="text-secondary font-medium">Touchmark Descience</span>, 
+              and <span className="text-accent font-medium">Rultosh Edufun</span>, working on real-world projects alongside engineering teams. 
               I've also actively participated in project expos, symposiums, and technical events 
               that shaped my practical knowledge and team dynamics.
             </p>
