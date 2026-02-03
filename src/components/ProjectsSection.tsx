@@ -48,22 +48,36 @@ const projects = [
 
 const internships = [
   {
+    company: "SIDBI",
+    role: "Junior Developer (Trainee)",
+    period: "Present",
+    description: "Currently working on VCF Project in Chennai, contributing to development initiatives.",
+    link: "#", // You can add the actual link later
+    isCurrent: true,
+  },
+  {
     company: "iAgami Technologies",
     role: "Summer Intern",
     period: "Jun - Jul 2025",
-    description: "Software development for HarvestEye Portal and BioArt e-commerce using AngularJS, Django, TypeScript.",
+    description: "Software development for HarvestEye Portal using Angular, Python, HTML/CSS. Conducted security testing with OWASP ZAP & SonarQube.",
+    link: "#", // Add LinkedIn/certificate link
+    isCurrent: false,
   },
   {
     company: "Touchmark Descience",
     role: "Project Intern",
     period: "Dec 2024 - Mar 2025",
-    description: "Developed SurveyScope - a cloud-based HR survey tool with LLM integration for behavioral analytics.",
+    description: "Built SurveyScope - a SaaS-based HR survey platform using React, Node, and PSQL with dashboards and analytics.",
+    link: "#", // Add LinkedIn/certificate link
+    isCurrent: false,
   },
   {
     company: "Rultosh Edufun",
     role: "Project Intern",
     period: "Mar - Jul 2024",
-    description: "Built AI potato grading system using OpenCV and YOLO for object detection and classification.",
+    description: "Built AI potato grading model using OpenCV & YOLO with real-time detection GUI.",
+    link: "#", // Add LinkedIn/certificate link
+    isCurrent: false,
   },
 ];
 
@@ -180,20 +194,37 @@ const ProjectsSection = () => {
           <h3 className="font-display text-2xl font-bold text-center mb-8">
             Internship <span className="gradient-text">Experience</span>
           </h3>
-          <div className="grid md:grid-cols-3 gap-6">
+          <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-6">
             {internships.map((intern, index) => (
-              <motion.div
+              <motion.a
                 key={intern.company}
+                href={intern.link}
+                target="_blank"
+                rel="noopener noreferrer"
                 initial={{ opacity: 0, y: 20 }}
                 animate={isInView ? { opacity: 1, y: 0 } : {}}
                 transition={{ duration: 0.4, delay: 0.6 + index * 0.1 }}
-                className="glass-card rounded-xl p-5 glow-border"
+                whileHover={{ scale: 1.03, y: -4 }}
+                whileTap={{ scale: 0.98 }}
+                className={`glass-card rounded-xl p-5 glow-border cursor-pointer block transition-all duration-300 hover:border-primary/40 hover:shadow-lg hover:shadow-primary/10 ${
+                  intern.isCurrent ? "border-primary/30 bg-primary/5" : ""
+                }`}
               >
-                <p className="text-xs text-primary mb-1">{intern.period}</p>
-                <h4 className="font-display font-semibold mb-1">{intern.company}</h4>
+                <div className="flex items-center gap-2 mb-1">
+                  <p className="text-xs text-primary">{intern.period}</p>
+                  {intern.isCurrent && (
+                    <span className="px-2 py-0.5 rounded-full bg-primary/20 text-primary text-[10px] font-medium animate-pulse">
+                      Current
+                    </span>
+                  )}
+                </div>
+                <h4 className="font-display font-semibold mb-1 group-hover:text-primary transition-colors">{intern.company}</h4>
                 <p className="text-sm text-muted-foreground mb-2">{intern.role}</p>
                 <p className="text-xs text-muted-foreground/80">{intern.description}</p>
-              </motion.div>
+                <div className="mt-3 text-xs text-primary/70 flex items-center gap-1 opacity-0 group-hover:opacity-100 transition-opacity">
+                  Click to view details →
+                </div>
+              </motion.a>
             ))}
           </div>
         </motion.div>
