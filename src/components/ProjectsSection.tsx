@@ -1,21 +1,34 @@
 import { motion } from "framer-motion";
 import { useInView } from "framer-motion";
 import { useRef } from "react";
-import { ExternalLink, Github, Battery, Camera, Users } from "lucide-react";
+import { ExternalLink, Github, Battery, Camera, Users, Leaf } from "lucide-react";
 import { Button } from "@/components/ui/button";
 
 const projects = [
   {
     title: "Real-Time Battery Metrics Monitoring",
     description:
-      "Built a real-time metrics visualization system using React, Chart.js, and MongoDB-Node.js. Implemented AI-driven analysis for battery performance tracking with live insights, historical trends, and predictive analytics.",
-    tags: ["React", "Node.js", "MongoDB", "Chart.js", "AI/ML"],
+      "This project is in active development, with completion of two phases. Phase 1 features comparative ML analysis using Evolutionary algorithm, XGBoost and Random Forest with real-time metrics visualization using React, Chart.js, and MongoDB-Node.js. Phase 2 combines Digital Twin with new neural network model analysis.",
+    tags: ["React", "Node.js", "MongoDB", "Chart.js", "AI/ML", "Digital Twin"],
     icon: Battery,
     gradient: "from-primary/20 to-accent/20",
     highlights: [
-      "Real-time SOC/SOH tracking",
-      "Sensor data integration",
-      "Predictive analytics",
+      "AI-driven battery performance tracking with live insights & predictive analytics",
+      "Real-time metrics analysis (current, voltage, SOC/SOH)",
+      "Enhanced battery lifespan through sensor data integration",
+    ],
+  },
+  {
+    title: "Hydroponics Development",
+    description:
+      "This project is under early development. Our objective is to bring economical but high yield crop growth solution to the market using Hydroponics setup. Currently working on the POC.",
+    tags: ["IoT", "Agriculture", "Hardware", "R&D"],
+    icon: Leaf,
+    gradient: "from-green-500/20 to-primary/20",
+    highlights: [
+      "Economical crop growth solution",
+      "High yield hydroponics setup",
+      "POC in development",
     ],
   },
   {
