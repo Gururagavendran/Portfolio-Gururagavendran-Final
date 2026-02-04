@@ -62,10 +62,8 @@ const Navigation = () => {
             animate={{ opacity: 1, scale: 1 }}
             transition={{ delay: 0.4 }}
           >
-            <Button variant="glow" size="sm" asChild>
-              <a href="https://drive.google.com/file/d/1MNbM5AYiSwSp-IHQKy4fN6xfb_JxyXvW/view?usp=sharing" target="_blank" rel="noopener noreferrer">
-                Resume
-              </a>
+            <Button variant="glow" size="sm">
+              Resume
             </Button>
           </motion.div>
         </div>
@@ -104,10 +102,8 @@ const Navigation = () => {
                   {item.label}
                 </motion.a>
               ))}
-              <Button variant="glow" className="mt-2" asChild>
-                <a href="https://drive.google.com/file/d/1MNbM5AYiSwSp-IHQKy4fN6xfb_JxyXvW/view?usp=sharing" target="_blank" rel="noopener noreferrer">
-                  Resume
-                </a>
+              <Button variant="glow" className="mt-2">
+                Resume
               </Button>
             </div>
           </motion.div>
