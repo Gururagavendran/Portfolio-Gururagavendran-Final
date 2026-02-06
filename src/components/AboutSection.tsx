@@ -2,6 +2,7 @@ import { motion } from "framer-motion";
 import { useInView } from "framer-motion";
 import { useRef } from "react";
 import { Users, Lightbulb, BookOpen, MessageCircle } from "lucide-react";
+import profileImage from "@/assets/profile.png";
 
 const highlights = [
   {
@@ -52,8 +53,8 @@ const AboutSection = () => {
                 <div className="absolute bottom-0 left-0 w-24 h-24 bg-gradient-to-tr from-secondary/30 to-transparent rounded-tr-full" />
                 
                 {/* Avatar placeholder */}
-                <div className="w-48 h-48 mx-auto mb-6 rounded-2xl bg-gradient-to-br from-primary/20 via-accent/20 to-secondary/20 flex items-center justify-center">
-                  <span className="font-display text-6xl gradient-text font-bold">GG</span>
+                <div className="w-48 h-48 mx-auto mb-6 rounded-2xl overflow-hidden">
+                  <img src={profileImage} alt="G Gururagavendran" className="w-full h-full object-cover" />
                 </div>
                 
                 {/* Quick Info */}
