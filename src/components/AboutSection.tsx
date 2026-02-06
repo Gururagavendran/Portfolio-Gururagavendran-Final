@@ -111,6 +111,27 @@ const AboutSection = () => {
               that shaped my practical knowledge and team dynamics.
             </p>
 
+            {/* Education */}
+            <div className="glass-card rounded-xl p-5 mb-8 glow-border">
+              <h4 className="font-display font-semibold text-lg mb-3 flex items-center gap-2">
+                🎓 <span className="gradient-text">Education</span>
+              </h4>
+              <div className="space-y-2">
+                <div className="flex items-start gap-3">
+                  <span className="w-1.5 h-1.5 rounded-full bg-primary mt-2 shrink-0" />
+                  <p className="text-sm text-muted-foreground">
+                    <span className="text-foreground font-medium">BE — Computer Science & Engineering</span> · St. Joseph's College of Engineering, Chennai
+                  </p>
+                </div>
+                <div className="flex items-start gap-3">
+                  <span className="w-1.5 h-1.5 rounded-full bg-secondary mt-2 shrink-0" />
+                  <p className="text-sm text-muted-foreground">
+                    <span className="text-foreground font-medium">HSC & SSC</span> · Narayana E-Techno School
+                  </p>
+                </div>
+              </div>
+            </div>
+
             {/* Highlights Grid */}
             <div className="grid grid-cols-2 gap-4">
               {highlights.map((item, index) => (
