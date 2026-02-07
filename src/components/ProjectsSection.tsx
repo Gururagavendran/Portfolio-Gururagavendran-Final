@@ -6,7 +6,7 @@ import { Button } from "@/components/ui/button";
 
 const projects = [
   {
-    title: "Real-Time Battery Metrics Monitoring",
+    title: "Real-Time Monitoring System For Battery Prediction & Metrics Analysis",
     badge: "Final Year Project",
     description:
       "This project is in active development, with completion of two phases. Phase 1 features comparative ML analysis using Evolutionary algorithm, XGBoost and Random Forest with real-time metrics visualization using React, Chart.js, and MongoDB-Node.js. Phase 2 combines Digital Twin with new neural network model analysis. Ongoing research publications based on this project — see Publications section.",
