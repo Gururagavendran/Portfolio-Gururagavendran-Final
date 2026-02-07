@@ -7,15 +7,16 @@ import { Button } from "@/components/ui/button";
 const projects = [
   {
     title: "Real-Time Battery Metrics Monitoring",
+    badge: "Final Year Project",
     description:
-      "This project is in active development, with completion of two phases. Phase 1 features comparative ML analysis using Evolutionary algorithm, XGBoost and Random Forest with real-time metrics visualization using React, Chart.js, and MongoDB-Node.js. Phase 2 combines Digital Twin with new neural network model analysis.",
+      "This project is in active development, with completion of two phases. Phase 1 features comparative ML analysis using Evolutionary algorithm, XGBoost and Random Forest with real-time metrics visualization using React, Chart.js, and MongoDB-Node.js. Phase 2 combines Digital Twin with new neural network model analysis. Ongoing research publications based on this project — see Publications section.",
     tags: ["React", "Node.js", "MongoDB", "Chart.js", "AI/ML", "Digital Twin"],
     icon: Battery,
     gradient: "from-primary/20 to-accent/20",
     highlights: [
       "AI-driven battery performance tracking with live insights & predictive analytics",
       "Real-time metrics analysis (current, voltage, SOC/SOH)",
-      "Enhanced battery lifespan through sensor data integration",
+      "Ongoing research papers presented at ICCCES & ICVADV 2026",
     ],
   },
   {
@@ -145,9 +146,14 @@ const ProjectsSection = () => {
               className="group"
             >
               <div className="glass-card rounded-2xl overflow-hidden h-full flex flex-col glow-border hover:border-primary/30 transition-all duration-500">
-                {/* Project Header */}
+                {/* Header with Badge */}
                 <div className={`h-32 bg-gradient-to-br ${project.gradient} relative overflow-hidden flex items-center justify-center`}>
                   <div className="absolute inset-0 bg-[linear-gradient(45deg,transparent_25%,rgba(255,255,255,0.05)_50%,transparent_75%)] bg-[length:200%_200%] group-hover:animate-[shimmer_2s_infinite]" />
+                  {project.badge && (
+                    <span className="absolute top-3 right-3 px-2.5 py-1 rounded-full bg-primary/90 text-primary-foreground text-[10px] font-semibold tracking-wide uppercase">
+                      {project.badge}
+                    </span>
+                  )}
                   <project.icon className="w-12 h-12 text-foreground/60 group-hover:scale-110 transition-transform" />
                 </div>
 
