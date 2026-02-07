@@ -1,7 +1,7 @@
 import { motion } from "framer-motion";
 import { useInView } from "framer-motion";
 import { useRef } from "react";
-import { ExternalLink, Github, Battery, Camera, Users, Leaf } from "lucide-react";
+import { ExternalLink, Github, Battery, Camera, Users, Leaf, Globe } from "lucide-react";
 import { Button } from "@/components/ui/button";
 
 const projects = [
@@ -16,6 +16,19 @@ const projects = [
       "AI-driven battery performance tracking with live insights & predictive analytics",
       "Real-time metrics analysis (current, voltage, SOC/SOH)",
       "Enhanced battery lifespan through sensor data integration",
+    ],
+  },
+  {
+    title: "Professional Portfolio Website",
+    description:
+      "This project is in early development. A modern, responsive personal portfolio built with Lovable to showcase projects, skills, certifications, and experience with smooth animations and a bold design system.",
+    tags: ["React 18", "TypeScript", "Vite", "Tailwind CSS", "Framer Motion", "React Router", "Lucide React"],
+    icon: Globe,
+    gradient: "from-accent/20 to-primary/20",
+    highlights: [
+      "Built with React 18 + TypeScript on Lovable",
+      "Smooth scroll animations with Framer Motion",
+      "Responsive design with Tailwind CSS",
     ],
   },
   {
