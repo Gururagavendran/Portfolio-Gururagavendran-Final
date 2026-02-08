@@ -92,11 +92,11 @@ const HeroSection = () => {
             transition={{ duration: 0.6, delay: 0.4 }}
             className="flex flex-col sm:flex-row items-center justify-center gap-4 mb-12"
           >
-            <Button variant="hero" size="xl">
-              View My Work
+            <Button variant="hero" size="xl" asChild>
+              <a href="#projects">View My Work</a>
             </Button>
-            <Button variant="heroOutline" size="xl">
-              Get In Touch
+            <Button variant="heroOutline" size="xl" asChild>
+              <a href="#contact">Get In Touch</a>
             </Button>
           </motion.div>
 
