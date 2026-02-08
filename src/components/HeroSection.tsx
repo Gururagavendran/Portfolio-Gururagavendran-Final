@@ -1,6 +1,7 @@
 import { motion } from "framer-motion";
 import { ArrowDown, Github, Linkedin, Mail } from "lucide-react";
 import { Button } from "@/components/ui/button";
+import { Link } from "react-router-dom";
 
 const HeroSection = () => {
   return (
@@ -93,7 +94,7 @@ const HeroSection = () => {
             className="flex flex-col sm:flex-row items-center justify-center gap-4 mb-12"
           >
             <Button variant="hero" size="xl" asChild>
-              <a href="#projects">View My Work</a>
+              <Link to="/my-work">View My Work</Link>
             </Button>
             <Button variant="heroOutline" size="xl" asChild>
               <a href="#contact">Get In Touch</a>
