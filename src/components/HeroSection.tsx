@@ -1,5 +1,5 @@
 import { motion } from "framer-motion";
-import { ArrowDown, Github, Linkedin, Mail } from "lucide-react";
+import { ArrowDown } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { Link } from "react-router-dom";
 
@@ -101,32 +101,6 @@ const HeroSection = () => {
             </Button>
           </motion.div>
 
-          {/* Social Links */}
-          <motion.div
-            initial={{ opacity: 0, y: 30 }}
-            animate={{ opacity: 1, y: 0 }}
-            transition={{ duration: 0.6, delay: 0.5 }}
-            className="flex items-center justify-center gap-6"
-          >
-            {[
-              { icon: Github, href: "https://github.com/Gururagavendran", label: "GitHub" },
-              { icon: Linkedin, href: "https://www.linkedin.com/in/gururagavendran-g-62a023261/", label: "LinkedIn" },
-              { icon: Mail, href: "mailto:gururagavendran52@gmail.com", label: "Email" },
-            ].map((social, index) => (
-              <motion.a
-                key={social.label}
-                href={social.href}
-                className="w-12 h-12 rounded-xl glass-card flex items-center justify-center text-muted-foreground hover:text-primary hover:border-primary/50 transition-all duration-300 glow-border"
-                whileHover={{ scale: 1.1, y: -4 }}
-                whileTap={{ scale: 0.95 }}
-                initial={{ opacity: 0, scale: 0 }}
-                animate={{ opacity: 1, scale: 1 }}
-                transition={{ delay: 0.6 + index * 0.1 }}
-              >
-                <social.icon size={20} />
-              </motion.a>
-            ))}
-          </motion.div>
         </div>
       </div>
 
