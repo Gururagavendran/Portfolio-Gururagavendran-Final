@@ -34,7 +34,7 @@ const Navigation = () => {
         isScrolled ? "glass-card py-4" : "py-6"
       }`}
     >
-      <div className="container mx-auto px-6 flex items-center justify-between">
+      <div className="container mx-auto px-6 flex items-center justify-center gap-12">
         {/* Logo */}
         <motion.a
           href="#"
