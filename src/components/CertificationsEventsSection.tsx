@@ -1,7 +1,7 @@
 import { motion } from "framer-motion";
 import { useInView } from "framer-motion";
 import { useRef } from "react";
-import { Award, Clock, CheckCircle, Trophy, Users, Eye } from "lucide-react";
+import { Award, Clock, CheckCircle, Trophy, Users, Eye, ExternalLink } from "lucide-react";
 
 const certifications = [
   {
@@ -13,6 +13,7 @@ const certifications = [
     title: "Fundamentals of Docker and Kubernetes",
     issuer: "Scaler Masterclass",
     status: "Feb 2026",
+    credentialUrl: "https://moonshot.scaler.com/s/sl/tF3s74UEQz",
   },
   {
     title: "Database Design and Basic SQL in PostgreSQL",
@@ -20,14 +21,22 @@ const certifications = [
     status: "ongoing",
   },
   {
-    title: "JavaScript Essentials 1 & 2",
+    title: "JavaScript Essentials 1",
     issuer: "Cisco Network Academy",
     status: "May 2025",
+    credentialUrl: "https://www.credly.com/badges/87a32395-defc-4c4c-a74f-a576dce0ac27",
+  },
+  {
+    title: "JavaScript Essentials 2",
+    issuer: "Cisco Network Academy",
+    status: "May 2025",
+    credentialUrl: "https://www.credly.com/badges/30e28e20-ae5d-4929-a805-08f590cea773/linked_in_profile",
   },
   {
     title: "Database Management System",
     issuer: "IIT Kharagpur (NPTEL)",
     status: "Mar 2025",
+    credentialUrl: "https://archive.nptel.ac.in/content/noc/NOC25/SEM1/Ecertificates/106/noc25-cs18/Course/NPTEL25CS18S55040723801280394.pdf",
   },
 ];
 
@@ -116,7 +125,19 @@ const CertificationsEventsSection = () => {
                       )}
                     </div>
                     <h4 className="font-display font-semibold text-sm mb-2">{cert.title}</h4>
-                    <p className="text-xs text-muted-foreground">{cert.issuer}</p>
+                    <div className="flex items-center justify-between">
+                      <p className="text-xs text-muted-foreground">{cert.issuer}</p>
+                      {cert.credentialUrl && (
+                        <a
+                          href={cert.credentialUrl}
+                          target="_blank"
+                          rel="noopener noreferrer"
+                          className="text-[10px] text-primary hover:text-primary/80 flex items-center gap-1 transition-colors"
+                        >
+                          Verify <ExternalLink size={10} />
+                        </a>
+                      )}
+                    </div>
                   </motion.div>
                 );
               })}
