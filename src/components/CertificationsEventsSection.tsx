@@ -106,7 +106,7 @@ const CertificationsEventsSection = () => {
                     initial={{ opacity: 0, y: 30 }}
                     animate={isInView ? { opacity: 1, y: 0 } : {}}
                     transition={{ duration: 0.4, delay: index * 0.15 }}
-                    className="glass-card rounded-xl p-5 glow-border hover:border-primary/30 transition-all duration-500"
+                    className="glass-card rounded-xl p-5 glow-border transition-all duration-500"
                   >
                     <div className="flex items-center gap-2 mb-3">
                       <Award className="w-5 h-5 text-primary" />
