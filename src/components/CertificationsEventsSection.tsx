@@ -5,6 +5,11 @@ import { Award, Clock, CheckCircle, Trophy, Users, Eye } from "lucide-react";
 
 const certifications = [
   {
+    title: "Master Core Redux Concepts",
+    issuer: "Scaler Masterclass",
+    status: "ongoing",
+  },
+  {
     title: "Fundamentals of Docker and Kubernetes",
     issuer: "Scaler Masterclass",
     status: "Feb 2026",
