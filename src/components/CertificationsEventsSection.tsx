@@ -132,9 +132,9 @@ const CertificationsEventsSection = () => {
                           href={cert.credentialUrl}
                           target="_blank"
                           rel="noopener noreferrer"
-                          className="text-[10px] text-primary hover:text-primary/80 flex items-center gap-1 transition-colors"
+                          className="px-2.5 py-1 rounded-full bg-primary/15 text-primary text-[11px] font-medium hover:bg-primary/25 flex items-center gap-1.5 transition-all duration-300"
                         >
-                          Verify <ExternalLink size={10} />
+                          <CheckCircle size={11} /> Verify Credential
                         </a>
                       )}
                     </div>
