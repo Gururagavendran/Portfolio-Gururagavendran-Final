@@ -20,19 +20,6 @@ const projects = [
     ],
   },
   {
-    title: "Professional Portfolio Website",
-    description:
-      "This project is in early development. A modern, responsive personal portfolio built with Lovable to showcase projects, skills, certifications, and experience with smooth animations and a bold design system.",
-    tags: ["React 18", "TypeScript", "Vite", "Tailwind CSS", "Framer Motion", "React Router", "Lucide React"],
-    icon: Globe,
-    gradient: "from-accent/20 to-primary/20",
-    highlights: [
-      "Built with React 18 + TypeScript on Lovable",
-      "Smooth scroll animations with Framer Motion",
-      "Responsive design with Tailwind CSS",
-    ],
-  },
-  {
     title: "Hydroponics Development",
     description:
       "This project is under early development. Our objective is to bring economical but high yield crop growth solution to the market using Hydroponics setup. Currently working on the POC.",
@@ -43,6 +30,19 @@ const projects = [
       "Economical crop growth solution",
       "High yield hydroponics setup",
       "POC in development",
+    ],
+  },
+  {
+    title: "Professional Portfolio Website",
+    description:
+      "This project is in early development. A modern, responsive personal portfolio built with Lovable to showcase projects, skills, certifications, and experience with smooth animations and a bold design system.",
+    tags: ["React 18", "TypeScript", "Vite", "Tailwind CSS", "Framer Motion", "React Router", "Lucide React"],
+    icon: Globe,
+    gradient: "from-accent/20 to-primary/20",
+    highlights: [
+      "Built with React 18 + TypeScript on Lovable",
+      "Smooth scroll animations with Framer Motion",
+      "Responsive design with Tailwind CSS",
     ],
   },
   {
