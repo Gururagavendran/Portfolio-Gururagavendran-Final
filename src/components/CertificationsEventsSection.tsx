@@ -5,6 +5,11 @@ import { Award, Clock, CheckCircle, Trophy, Users, Eye } from "lucide-react";
 
 const certifications = [
   {
+    title: "Fundamentals of Docker and Kubernetes",
+    issuer: "Scaler Masterclass",
+    status: "Feb 2026",
+  },
+  {
     title: "Database Design and Basic SQL in PostgreSQL",
     issuer: "University of Michigan (Coursera)",
     status: "ongoing",
