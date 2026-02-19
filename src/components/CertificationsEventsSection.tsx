@@ -7,7 +7,7 @@ const certifications = [
   {
     title: "Master Core Redux Concepts",
     issuer: "Scaler Masterclass",
-    status: "ongoing",
+    status: "upcoming",
   },
   {
     title: "Fundamentals of Docker and Kubernetes",
@@ -90,6 +90,7 @@ const CertificationsEventsSection = () => {
             <div className="space-y-4">
               {certifications.map((cert, index) => {
                 const isOngoing = cert.status === "ongoing";
+                const isUpcoming = cert.status === "upcoming";
                 return (
                   <motion.div
                     key={cert.title}
@@ -103,6 +104,10 @@ const CertificationsEventsSection = () => {
                       {isOngoing ? (
                         <span className="px-2 py-0.5 rounded-full bg-accent/20 text-accent text-[10px] font-medium flex items-center gap-1">
                           <Clock size={10} /> Ongoing
+                        </span>
+                      ) : isUpcoming ? (
+                        <span className="px-2 py-0.5 rounded-full bg-accent/20 text-accent text-[10px] font-medium flex items-center gap-1">
+                          <Clock size={10} /> Upcoming
                         </span>
                       ) : (
                         <span className="px-2 py-0.5 rounded-full bg-primary/20 text-primary text-[10px] font-medium flex items-center gap-1">
