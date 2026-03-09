@@ -8,7 +8,7 @@ const internships = [
     company: "Rultosh Edufun",
     role: "Junior Java Developer",
     period: "Present",
-    description: "Currently working on VCF Project in Chennai, contributing to development initiatives.",
+    description: "Currently working on VCF-VD Project in contract with SIDBI, Chennai, contributing to development initiatives.",
     link: "#",
     isCurrent: true,
   },
