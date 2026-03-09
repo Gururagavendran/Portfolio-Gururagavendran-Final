@@ -96,7 +96,7 @@ const AboutSection = () => {
               About <span className="gradient-text">Me</span>
             </h2>
             
-            <p className="text-lg text-muted-foreground mb-6 leading-relaxed text-justify">SIDBI
+            <p className="text-lg mb-6 leading-relaxed text-justify text-primary-foreground">Working as Junior Developer at Rultosh Edufun under their VCF-VD Project in contract with SIDBI, Chennai. Eager to grow as a Software Developer with a keen interest in designing, bringing strong skills in communication, technical adaptability, coding, and creativity.
 
               <span className="text-primary font-medium"></span> at 
               <span className="text-primary font-medium"></span> under their VCF Project. 
