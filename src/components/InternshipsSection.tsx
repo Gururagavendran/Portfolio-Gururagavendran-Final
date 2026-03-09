@@ -5,8 +5,8 @@ import { Briefcase } from "lucide-react";
 
 const internships = [
   {
-    company: "SIDBI",
-    role: "Junior Developer (Trainee)",
+    company: "Rultosh Edufun",
+    role: "Junior Java Developer",
     period: "Present",
     description: "Currently working on VCF Project in Chennai, contributing to development initiatives.",
     link: "#",
