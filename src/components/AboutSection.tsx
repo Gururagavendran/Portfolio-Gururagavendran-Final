@@ -98,8 +98,8 @@ const AboutSection = () => {
             
             <p className="text-lg text-muted-foreground mb-6 leading-relaxed text-justify">Passionate Computer Science Engineering undergraduate, currently working as a Junior Java Developer at Rultosh Edufun under SIDBI, Chennai VCF-VD Project. Eager to grow as a Software Developer with a keen interest in designing, bringing strong skills in communication, technical adaptability, coding, and creativity.
 
-              <span className="text-primary font-medium"></span> at 
-              <span className="text-primary font-medium"></span> under their VCF Project. 
+              <span className="text-primary font-medium"> Junior Java Developer</span> at 
+              <span className="text-primary font-medium"> Rultosh Edufun</span> under their VCF Project.
               Eager to grow as a Software Developer with a keen interest in designing, bringing strong 
               skills in communication, technical adaptability, coding, and creativity.
             </p>

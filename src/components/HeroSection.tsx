@@ -71,8 +71,7 @@ const HeroSection = () => {
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.6, delay: 0.2 }}
             className="text-xl md:text-2xl text-muted-foreground mb-8 max-w-2xl mx-auto">
-            
-
+            CSE Undergrad · Software Developer · Designer
           </motion.p>
 
           {/* Description */}
