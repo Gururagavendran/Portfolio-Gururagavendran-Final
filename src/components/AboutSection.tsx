@@ -5,27 +5,27 @@ import { Users, Lightbulb, BookOpen, MessageCircle } from "lucide-react";
 import profileImage from "@/assets/profile.png";
 
 const highlights = [
-  {
-    icon: Users,
-    title: "Collaborative",
-    description: "Team player with internship experience",
-  },
-  {
-    icon: Lightbulb,
-    title: "Creative Mind",
-    description: "Innovative approach to problem-solving",
-  },
-  {
-    icon: BookOpen,
-    title: "Adaptive Learner",
-    description: "Quick to pick up new technologies",
-  },
-  {
-    icon: MessageCircle,
-    title: "Communication",
-    description: "Clear technical & professional skills",
-  },
-];
+{
+  icon: Users,
+  title: "Collaborative",
+  description: "Team player with internship experience"
+},
+{
+  icon: Lightbulb,
+  title: "Creative Mind",
+  description: "Innovative approach to problem-solving"
+},
+{
+  icon: BookOpen,
+  title: "Adaptive Learner",
+  description: "Quick to pick up new technologies"
+},
+{
+  icon: MessageCircle,
+  title: "Communication",
+  description: "Clear technical & professional skills"
+}];
+
 
 const AboutSection = () => {
   const ref = useRef(null);
@@ -43,8 +43,8 @@ const AboutSection = () => {
             initial={{ opacity: 0, x: -50 }}
             animate={isInView ? { opacity: 1, x: 0 } : {}}
             transition={{ duration: 0.6 }}
-            className="relative"
-          >
+            className="relative">
+            
             {/* Profile Card */}
             <div className="relative">
               <div className="glass-card rounded-3xl p-8 relative overflow-hidden">
@@ -72,15 +72,15 @@ const AboutSection = () => {
               <motion.div
                 className="absolute -top-4 -right-4 w-24 h-24 glass-card rounded-2xl flex items-center justify-center"
                 animate={{ y: [0, -10, 0] }}
-                transition={{ duration: 4, repeat: Infinity }}
-              >
+                transition={{ duration: 4, repeat: Infinity }}>
+                
                 <span className="text-3xl">🚀</span>
               </motion.div>
               <motion.div
                 className="absolute -bottom-4 -left-4 w-20 h-20 glass-card rounded-2xl flex items-center justify-center"
                 animate={{ y: [0, 10, 0] }}
-                transition={{ duration: 5, repeat: Infinity }}
-              >
+                transition={{ duration: 5, repeat: Infinity }}>
+                
                 <span className="text-2xl">💻</span>
               </motion.div>
             </div>
@@ -90,16 +90,16 @@ const AboutSection = () => {
           <motion.div
             initial={{ opacity: 0, x: 50 }}
             animate={isInView ? { opacity: 1, x: 0 } : {}}
-            transition={{ duration: 0.6, delay: 0.2 }}
-          >
+            transition={{ duration: 0.6, delay: 0.2 }}>
+            
             <h2 className="font-display text-4xl md:text-5xl font-bold mb-6">
               About <span className="gradient-text">Me</span>
             </h2>
             
-            <p className="text-lg text-muted-foreground mb-6 leading-relaxed text-justify">
-              Passionate Computer Science Engineering undergraduate, currently working as a 
-              <span className="text-primary font-medium"> Junior Developer (Trainee)</span> at 
-              <span className="text-primary font-medium"> SIDBI, Chennai</span> under their VCF Project. 
+            <p className="text-lg text-muted-foreground mb-6 leading-relaxed text-justify">Passionate Computer Science Engineering undergraduate, currently working as a Junior Java Developer at Rultosh Edufun under SIDBI, Chennai VCF-VD Project. Eager to grow as a Software Developer with a keen interest in designing, bringing strong skills in communication, technical adaptability, coding, and creativity.
+
+              <span className="text-primary font-medium"></span> at 
+              <span className="text-primary font-medium"></span> under their VCF Project. 
               Eager to grow as a Software Developer with a keen interest in designing, bringing strong 
               skills in communication, technical adaptability, coding, and creativity.
             </p>
@@ -134,25 +134,25 @@ const AboutSection = () => {
 
             {/* Highlights Grid */}
             <div className="grid grid-cols-2 gap-4">
-              {highlights.map((item, index) => (
-                <motion.div
-                  key={item.title}
-                  initial={{ opacity: 0, y: 20 }}
-                  animate={isInView ? { opacity: 1, y: 0 } : {}}
-                  transition={{ duration: 0.4, delay: 0.3 + index * 0.1 }}
-                  className="glass-card rounded-xl p-4 glow-border"
-                >
+              {highlights.map((item, index) =>
+              <motion.div
+                key={item.title}
+                initial={{ opacity: 0, y: 20 }}
+                animate={isInView ? { opacity: 1, y: 0 } : {}}
+                transition={{ duration: 0.4, delay: 0.3 + index * 0.1 }}
+                className="glass-card rounded-xl p-4 glow-border">
+                
                   <item.icon className="w-8 h-8 text-primary mb-2" />
                   <h4 className="font-display font-semibold mb-1">{item.title}</h4>
                   <p className="text-sm text-muted-foreground">{item.description}</p>
                 </motion.div>
-              ))}
+              )}
             </div>
           </motion.div>
         </div>
       </div>
-    </section>
-  );
+    </section>);
+
 };
 
 export default AboutSection;
