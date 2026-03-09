@@ -96,7 +96,7 @@ const AboutSection = () => {
               About <span className="gradient-text">Me</span>
             </h2>
             
-            <p className="text-lg text-muted-foreground mb-6 leading-relaxed text-justify"> VCF-VD Project. Eager to grow as a Software Developer with a keen interest in designing, bringing strong skills in communication, technical adaptability, coding, and creativity.
+            <p className="text-lg text-muted-foreground mb-6 leading-relaxed text-justify">SIDBI's
 
               <span className="text-primary font-medium"></span> at 
               <span className="text-primary font-medium"></span> under their VCF Project. 
