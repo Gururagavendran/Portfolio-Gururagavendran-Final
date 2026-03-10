@@ -1,4 +1,4 @@
-import { motion } from "framer-motion";
+/*import { motion } from "framer-motion";
 import { useInView } from "framer-motion";
 import { useRef } from "react";
 import { Briefcase } from "lucide-react";
@@ -97,4 +97,4 @@ const InternshipsSection = () => {
   );
 };
 
-export default InternshipsSection;
+export default InternshipsSection;*/

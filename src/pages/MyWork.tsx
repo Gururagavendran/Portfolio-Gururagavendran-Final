@@ -3,8 +3,8 @@ import { ArrowLeft } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { Link } from "react-router-dom";
 import ProjectsSection from "@/components/ProjectsSection";
-import InternshipsSection from "@/components/InternshipsSection";
 import PublicationsSection from "@/components/PublicationsSection";
+import ExperienceSection from "@/components/ExperienceSection";
 
 const MyWork = () => {
   return (
@@ -30,7 +30,7 @@ const MyWork = () => {
 
       <main className="pt-20">
         <ProjectsSection />
-        <InternshipsSection />
+        <ExperienceSection />
         <PublicationsSection />
       </main>
     </div>

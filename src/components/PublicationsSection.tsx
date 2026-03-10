@@ -12,7 +12,7 @@ const publications = [
   },
   {
     title: "A Digital Twin-Enhanced Battery Management System with Adaptive Learning for Electric Vehicle Applications",
-    status: "Accepted for oral presentation at ICVADV 2026; proceedings publication under process.",
+    status: "Presented at ICVADV 2026 (ISBN-indexed); IEEE publication under process.",
     abstract:
       "Created a Digital Twin framework with adaptive machine learning for lithium-ion Battery Management Systems in electric vehicles. Evaluated six ML algorithms on 1,150+ real-world samples, with neural network achieving R² of 0.7789—competitive with Extended Kalman Filter approaches. Integrated anomaly detection (92% precision) and adaptive learning, yielding 13.71% accuracy improvement.",
   },

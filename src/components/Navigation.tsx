@@ -7,7 +7,7 @@ const navItems = [
   { label: "About", href: "#about" },
   { label: "Skills", href: "#skills" },
   { label: "Projects", href: "#projects" },
-  { label: "Internships", href: "#internships" },
+  { label: "Experiences", href: "#experiences" },
   { label: "Research", href: "#publications" },
   { label: "Certifications", href: "#certifications-events" },
   { label: "Contact", href: "#contact" },
@@ -66,7 +66,7 @@ const Navigation = () => {
             transition={{ delay: 0.4 }}
           >
             <Button variant="glow" size="sm" asChild>
-              <a href="https://drive.google.com/file/d/16SZviVmXi_knFDvRO59U3hEK-jiJquPR/view?usp=sharing" target="_blank" rel="noopener noreferrer">
+              <a href="https://drive.google.com/file/d/1OKoiw599fSgOuDEuuwubNYMdBbKqJnLP/view?usp=drive_link" target="_blank" rel="noopener noreferrer">
                 Resume
               </a>
             </Button>
@@ -108,7 +108,7 @@ const Navigation = () => {
                 </motion.a>
               ))}
               <Button variant="glow" className="mt-2" asChild>
-                <a href="https://drive.google.com/file/d/16SZviVmXi_knFDvRO59U3hEK-jiJquPR/view?usp=sharing" target="_blank" rel="noopener noreferrer">
+                <a href="https://drive.google.com/file/d/1OKoiw599fSgOuDEuuwubNYMdBbKqJnLP/view?usp=drive_link" target="_blank" rel="noopener noreferrer">
                   Resume
                 </a>
               </Button>

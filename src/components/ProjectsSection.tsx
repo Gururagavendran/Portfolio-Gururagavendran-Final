@@ -35,12 +35,13 @@ const projects = [
   {
     title: "Professional Portfolio Website",
     description:
-      "This project is in early development. A modern, responsive personal portfolio built with Lovable to showcase projects, skills, certifications, and experience with smooth animations and a bold design system.",
+      "A modern, responsive personal portfolio built to showcase projects, skills, certifications, and experience with smooth animations and a bold design system.",
     tags: ["React 18", "TypeScript", "Vite", "Tailwind CSS", "Framer Motion", "React Router", "Lucide React"],
     icon: Globe,
     gradient: "from-accent/20 to-primary/20",
     highlights: [
-      "Built with React 18 + TypeScript on Lovable",
+      "Designed using Figma & Lovable",
+      "Built with React 18 + TypeScript",
       "Smooth scroll animations with Framer Motion",
       "Responsive design with Tailwind CSS",
     ],

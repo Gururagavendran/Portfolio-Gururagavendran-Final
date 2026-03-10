@@ -1,13 +1,14 @@
 import { motion } from "framer-motion";
 import { useInView } from "framer-motion";
 import { useRef } from "react";
-import { Award, Clock, CheckCircle, Trophy, Users, Eye, ExternalLink } from "lucide-react";
+import { Award, Clock, CheckCircle, Trophy, Users, Eye, ExternalLink, MonitorSmartphone } from "lucide-react";
 
 const certifications = [
   {
     title: "Master Core Redux Concepts",
     issuer: "Scaler Masterclass",
-    status: "upcoming",
+    status: "Feb 2026",
+    credentialUrl: "https://moonshot.scaler.com/s/sl/zS19cZxM_k",
   },
   {
     title: "Fundamentals of Docker and Kubernetes",
@@ -41,11 +42,31 @@ const certifications = [
 ];
 
 const events = [
+{
+  text: "Participated in Build in 60 minutes, Ozmenta 2026, a website design/sprinathon where I designed and built a student late entry management system using React, Figma and Lovable organized by Velammal Engineering College, Chennai.",
+    icon: MonitorSmartphone,
+    highlight: true,
+},
+
+
   {
     text: "Won 3rd Prize at Tech Forge Expo, Euphoria 2025, and ₹2,000 cash prize at the technical project expo organized by Kalasalingam Academy of Research and Education, Srivilliputhur.",
     icon: Trophy,
     highlight: true,
   },
+
+  {
+  text: "Won 2nd Prize in Meme Relay, Ozmenta 2026, and ₹500 cash prize at the meme relay contest organized by Velammal Engineering College, Chennai.",
+    icon: Trophy,
+    highlight: true,
+},
+
+{
+    text: "Won 3rd prize in the college cultural quiz program, conducted by Dept of CSE, SJCE.",
+    icon: Trophy,
+    highlight: true,
+  },
+
   {
     text: "Participated in InnovateXpo project expo, organized by SJIT.",
     icon: Eye,
@@ -56,11 +77,7 @@ const events = [
     icon: Users,
     highlight: false,
   },
-  {
-    text: "Won 3rd prize in the college cultural quiz program, conducted by Dept of CSE, SJCE.",
-    icon: Trophy,
-    highlight: true,
-  },
+  
   {
     text: "Attended In-plant visit to TANSAM Center of Excellence, powered by Siemens, Taramani.",
     icon: Eye,

@@ -60,10 +60,10 @@ const AboutSection = () => {
                 {/* Quick Info */}
                 <div className="text-center">
                   <h3 className="font-display text-2xl font-bold mb-2">G Gururagavendran</h3>
-                  <p className="text-muted-foreground mb-4">Junior Developer @ SIDBI</p>
+                  <p className="text-muted-foreground mb-4">Junior Java Developer @ Rultosh Edufun</p>
                   <div className="flex items-center justify-center gap-2 text-sm flex-wrap">
                     <span className="px-3 py-1 rounded-full bg-primary/20 text-primary">BE CSE</span>
-                    <span className="px-3 py-1 rounded-full bg-secondary/20 text-secondary">VCF Project</span>
+                    <span className="px-3 py-1 rounded-full bg-secondary/20 text-secondary">Software Developer</span>
                   </div>
                 </div>
               </div>
@@ -96,10 +96,10 @@ const AboutSection = () => {
               About <span className="gradient-text">Me</span>
             </h2>
             
-            <p className="text-lg mb-6 leading-relaxed text-justify text-primary-foreground">Working as Junior Developer at Rultosh Edufun under their VCF-VD Project in contract with SIDBI, Chennai. Eager to grow as a Software Developer with a keen interest in designing, bringing strong skills in communication, technical adaptability, coding, and creativity.
+            <p className="text-lg mb-6 leading-relaxed text-justify text-primary-foreground">Working as <span className="text-primary font-medium">Junior Java Developer</span> at <span className="text-accent font-medium">Rultosh Edufun</span> under <span className="text-accent font-medium">Venture Capitalist-Debt & Incubator (VCF-VD) Project</span> in contract with <span className="text-primary font-medium">SIDBI, Chennai</span> . Eager to grow as a Software Developer with a keen interest in designing, bringing strong skills in communication, technical adaptability, coding, and creativity.
 
               <span className="text-primary font-medium"></span> at 
-              <span className="text-primary font-medium"></span> under their VCF Project. 
+              <span className="text-primary font-medium"></span> under their <span className="text-primary font-medium">VCF-VD Project. </span> 
               Eager to grow as a Software Developer with a keen interest in designing, bringing strong 
               skills in communication, technical adaptability, coding, and creativity.
             </p>

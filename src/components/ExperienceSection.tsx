@@ -11,10 +11,10 @@ const experiences = [
     period: "Mar 2026 - Present",
     duration: "1 mo",
     mode: "On-site",
-    location: "Chennai",
+    location: "Chennai, India",
     description:
       "Working as Junior Java Developer at Rultosh Edufun. Wireframing and prototype design using Figma & Lovable.",
-    skills: ["TypeScript", "Java", "+8 skills"],
+    skills: ["TypeScript", "Java", ""],
     isCurrent: true,
   },
   {
@@ -24,7 +24,7 @@ const experiences = [
     period: "Jan 2026 - Feb 2026",
     duration: "2 mos",
     mode: "Hybrid",
-    location: "Chennai",
+    location: "Chennai, India",
     description:
       "Project: Venture Debt Fund & Incubator (VCF-VD). Worked as a Junior Developer (Trainee), in contract with SIDBI under the VCF-VD client-assigned project.",
     skills: [],
@@ -37,7 +37,7 @@ const experiences = [
     period: "Jun - Jul 2025",
     duration: "2 mos",
     mode: "On-site",
-    location: "",
+    location: "Trichy, India",
     description:
       "Software development for HarvestEye Portal using Angular, Python, HTML/CSS. Conducted security testing with OWASP ZAP & SonarQube.",
     skills: ["Angular", "Python", "OWASP ZAP"],
@@ -49,8 +49,8 @@ const experiences = [
     type: "Internship",
     period: "Dec 2024 - Mar 2025",
     duration: "4 mos",
-    mode: "",
-    location: "",
+    mode: "Remote",
+    location: "Chennai, India",
     description:
       "Built SurveyScope - a SaaS-based HR survey platform using React, Node, and PSQL with dashboards and analytics.",
     skills: ["React", "Node.js", "PostgreSQL"],
@@ -62,8 +62,8 @@ const experiences = [
     type: "Internship",
     period: "Mar - Jul 2024",
     duration: "5 mos",
-    mode: "",
-    location: "",
+    mode: "Remote",
+    location: "Chennai, India",
     description:
       "Built AI potato grading model using OpenCV & YOLO with real-time detection GUI.",
     skills: ["OpenCV", "YOLO", "Python"],
@@ -76,7 +76,7 @@ const ExperienceSection = () => {
   const isInView = useInView(ref, { once: true, margin: "-100px" });
 
   return (
-    <section id="experience" className="py-32 relative" ref={ref}>
+    <section id="experiences" className="py-32 relative" ref={ref}>
       <div className="absolute left-0 top-1/4 w-1/3 h-80 bg-primary/5 rounded-r-full blur-3xl" />
       <div className="absolute right-0 top-2/3 w-1/4 h-64 bg-secondary/5 rounded-l-full blur-3xl" />
 
