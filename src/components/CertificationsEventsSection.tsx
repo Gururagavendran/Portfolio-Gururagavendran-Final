@@ -43,7 +43,7 @@ const certifications = [
 
 const events = [
 {
-  text: "Participated in Build in 60 minutes, Ozmenta 2026, a website design/sprinathon where I designed and built a student late entry management system using React, Figma and Lovable organized by Velammal Engineering College, Chennai.",
+  text: "Participated in Build in 60 minutes, Ozmenta 2026, a website design/sprinathon where I designed and built a student late entry management system using React, Figma and Lovable. Organized by Velammal Engineering College, Chennai.",
     icon: MonitorSmartphone,
     highlight: true,
 },

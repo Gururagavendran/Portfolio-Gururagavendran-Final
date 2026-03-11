@@ -3,6 +3,9 @@ import { useInView } from "framer-motion";
 import { useRef } from "react";
 import { Users, Lightbulb, BookOpen, MessageCircle } from "lucide-react";
 import profileImage from "@/assets/profile.png";
+import { Cog, Laptop } from "lucide-react";
+
+
 
 const highlights = [
 {
@@ -60,10 +63,10 @@ const AboutSection = () => {
                 {/* Quick Info */}
                 <div className="text-center">
                   <h3 className="font-display text-2xl font-bold mb-2">G Gururagavendran</h3>
-                  <p className="text-muted-foreground mb-4">Junior Java Developer @ Rultosh Edufun</p>
+                  <p className="text-muted-foreground mb-4"> Software Developer (MERN/Java)</p>
                   <div className="flex items-center justify-center gap-2 text-sm flex-wrap">
-                    <span className="px-3 py-1 rounded-full bg-primary/20 text-primary">BE CSE</span>
-                    <span className="px-3 py-1 rounded-full bg-secondary/20 text-secondary">Software Developer</span>
+                    <span className="px-3 py-1 rounded-full bg-primary/20 text-primary">Rultosh Edufun</span>
+                    <span className="px-3 py-1 rounded-full bg-secondary/20 text-secondary">Trovic Technologies</span>
                   </div>
                 </div>
               </div>
@@ -74,15 +77,32 @@ const AboutSection = () => {
                 animate={{ y: [0, -10, 0] }}
                 transition={{ duration: 4, repeat: Infinity }}>
                 
-                <span className="text-3xl">🚀</span>
+                <span className="text-3xl"> <Cog size={40} color="red"/></span>
               </motion.div>
               <motion.div
                 className="absolute -bottom-4 -left-4 w-20 h-20 glass-card rounded-2xl flex items-center justify-center"
                 animate={{ y: [0, 10, 0] }}
                 transition={{ duration: 5, repeat: Infinity }}>
                 
-                <span className="text-2xl">💻</span>
+                <span className="text-2xl"><Laptop size={40} color="red"/></span>
               </motion.div>
+            </div>
+
+            {/* Highlights Grid - below profile card */}
+            <div className="grid grid-cols-2 gap-4 mt-8">
+              {highlights.map((item, index) =>
+              <motion.div
+                key={item.title}
+                initial={{ opacity: 0, y: 20 }}
+                animate={isInView ? { opacity: 1, y: 0 } : {}}
+                transition={{ duration: 0.4, delay: 0.3 + index * 0.1 }}
+                className="glass-card rounded-xl p-4 glow-border">
+                
+                  <item.icon className="w-8 h-8 text-primary mb-2" />
+                  <h4 className="font-display font-semibold mb-1">{item.title}</h4>
+                  <p className="text-sm text-muted-foreground">{item.description}</p>
+                </motion.div>
+              )}
             </div>
           </motion.div>
 
@@ -96,10 +116,11 @@ const AboutSection = () => {
               About <span className="gradient-text">Me</span>
             </h2>
             
-            <p className="text-lg mb-6 leading-relaxed text-justify text-primary-foreground">Working as <span className="text-primary font-medium">Junior Java Developer</span> at <span className="text-accent font-medium">Rultosh Edufun</span> under <span className="text-accent font-medium">Venture Capitalist-Debt & Incubator (VCF-VD) Project</span> in contract with <span className="text-primary font-medium">SIDBI, Chennai</span> . Eager to grow as a Software Developer with a keen interest in designing, bringing strong skills in communication, technical adaptability, coding, and creativity.
-
-              <span className="text-primary font-medium"></span> at 
-              <span className="text-primary font-medium"></span> under their <span className="text-primary font-medium">VCF-VD Project. </span> 
+            <p className="text-lg mb-6 leading-relaxed text-justify text-primary-foreground"> <span className="text-primary font-medium">Junior Java Developer </span>  at <span className="text-accent font-medium">Rultosh Edufun</span> 
+              <span className="text-lg mb-6 leading-relaxed text-justify text-primary-foreground">. <span className="text-primary font-medium"> Co-Founder, CEO </span> of <span className="text-primary font-medium"> Trovic Technologies </span> 
+              </span> — <span className="text-lg mb-6 leading-relaxed text-justify text-primary-foreground">an IT startup offering <span className="text-primary font-medium"> software </span> & <span className="text-primary font-medium"> 
+              AI solutions </span> across various domains such as <span className="text-accent font-medium"> Agritech</span>, 
+              <span className="text-accent font-medium"> Electronics</span>, and more. </span>
               Eager to grow as a Software Developer with a keen interest in designing, bringing strong 
               skills in communication, technical adaptability, coding, and creativity.
             </p>
@@ -111,7 +132,33 @@ const AboutSection = () => {
               that shaped my practical knowledge and team dynamics.
             </p>
 
-            {/* Education */}
+             {/* Work Experience */}
+            <div className="glass-card rounded-xl p-5 mb-8 glow-border">
+              <h4 className="font-display font-semibold text-lg mb-3 flex items-center gap-2">
+                💼 <span className="gradient-text">Experience</span>
+              </h4>
+              <div className="space-y-2">
+                <div className="flex items-start gap-3">
+                  <span className="w-1.5 h-1.5 rounded-full bg-primary mt-2 shrink-0" />
+                  <p className="text-sm text-muted-foreground">
+                    <span className="text-foreground font-medium">Junior Java Developer </span> · Rultosh Edufun
+                  </p>
+                </div>
+                <div className="flex items-start gap-3">
+                  <span className="w-1.5 h-1.5 rounded-full bg-secondary mt-2 shrink-0" />
+                  <p className="text-sm text-muted-foreground">
+                    <span className="text-foreground font-medium">Co-founder, CEO</span> · Trovic Technologies
+                  </p>
+                </div>
+
+  
+              </div>
+
+             
+            
+            </div>
+
+             {/* Education */}
             <div className="glass-card rounded-xl p-5 mb-8 glow-border">
               <h4 className="font-display font-semibold text-lg mb-3 flex items-center gap-2">
                 🎓 <span className="gradient-text">Education</span>
@@ -129,24 +176,10 @@ const AboutSection = () => {
                     <span className="text-foreground font-medium">HSC & SSC</span> · Narayana E-Techno School
                   </p>
                 </div>
-              </div>
-            </div>
 
-            {/* Highlights Grid */}
-            <div className="grid grid-cols-2 gap-4">
-              {highlights.map((item, index) =>
-              <motion.div
-                key={item.title}
-                initial={{ opacity: 0, y: 20 }}
-                animate={isInView ? { opacity: 1, y: 0 } : {}}
-                transition={{ duration: 0.4, delay: 0.3 + index * 0.1 }}
-                className="glass-card rounded-xl p-4 glow-border">
+
                 
-                  <item.icon className="w-8 h-8 text-primary mb-2" />
-                  <h4 className="font-display font-semibold mb-1">{item.title}</h4>
-                  <p className="text-sm text-muted-foreground">{item.description}</p>
-                </motion.div>
-              )}
+              </div>
             </div>
           </motion.div>
         </div>

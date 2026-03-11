@@ -102,12 +102,13 @@ const SkillsSection = () => {
             {[
               "Computer Vision",
               "REST APIs",
-              "Anthropic Claude",
+              "Sourcetree",
               "SonarQube",
               "Canva",
               "OWASP ZAP",
               "BMS Basics",
               "Sony Vegas",
+              "Lovable"
             ].map((tech, index) => (
               <motion.span
                 key={tech}

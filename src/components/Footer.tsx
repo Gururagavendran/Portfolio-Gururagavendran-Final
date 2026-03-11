@@ -1,5 +1,5 @@
 import { motion } from "framer-motion";
-import { Heart } from "lucide-react";
+import { Heart, MonitorIcon } from "lucide-react";
 
 const Footer = () => {
   return (
@@ -16,8 +16,7 @@ const Footer = () => {
           </motion.a>
 
           {/* Copyright */}
-          <p className="text-sm text-muted-foreground flex items-center gap-1">
-            Built with <Heart size={14} className="text-secondary" /> by Gururagavendran © {new Date().getFullYear()}
+          <p className="text-sm text-muted-foreground flex items-center gap-2"> Professional Portfolio <MonitorIcon size={14} className="text-secondary flex items-center" /> Gururagavendran ©  {new Date().getFullYear()} 
           </p>
 
           {/* Quick Links */}
