@@ -40,7 +40,7 @@ const experiences = [
     location: "Trichy, India",
     description:
       "Software development for HarvestEye Portal using Angular, Python, HTML/CSS. Conducted security testing with OWASP ZAP & SonarQube.",
-    skills: ["Angular", "Python", "OWASP ZAP"],
+    skills: ["Angular", "Python", "SonarQube", "OWASP ZAP"],
     isCurrent: false,
   },
   {
