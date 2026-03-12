@@ -3,6 +3,7 @@ import { useInView } from "framer-motion";
 import { useRef } from "react";
 import { ExternalLink, Github, Battery, Camera, Users, Leaf, Globe, Vegan, BikeIcon } from "lucide-react";
 import { Button } from "@/components/ui/button";
+import { sub } from "date-fns";
 
 const projects = [
   {
@@ -21,6 +22,7 @@ const projects = [
   },
 {
   title: "SurveyScope Survey Platform for HR and Employees",
+  badge: "Internship Project @ Touchmark Descience ",
     description:
       "Developed during my project internship at Touchmark Descience, this project involved building a cloud-based web survey platform that helps HR teams measure employee satisfaction. It integrates LLM-based analysis to extract behavioral and psychological insights from survey responses. The platform features a user-friendly interface for creating and distributing surveys, as well as advanced analytics to identify trends and actionable insights for improving workplace culture and employee engagement.",
     tags: ["React", "Node", "PostgreSQL", "Gemini API", "LLM", "Supabase"],
@@ -35,6 +37,7 @@ const projects = [
 
   {
      title: "Computer-vision based Potato Sampling",
+     badge: "Internship Project @ Rultosh Edufun",
     description:
       "Developed during my internship at Rultosh Edufun, this project focuses on building an IoT-enabled computer vision system using Raspberry Pi to automate the detection and classification of potatoes on a conveyor belt. The system uses YOLOv8 for real-time object detection and a classification model to grade potatoes based on their size. This solution aims to improve efficiency and accuracy in agricultural processing by reducing manual labor and minimizing errors in sorting.",
     tags: ["Python", "OpenCV", "Computer Vision", "YOLO"],
