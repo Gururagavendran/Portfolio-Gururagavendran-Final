@@ -226,7 +226,7 @@ const ProjectsSection = () => {
           <Button variant="heroOutline" size="lg" asChild>
             <a href="https://github.com/Gururagavendran" target="_blank" rel="noopener noreferrer">
               <Github size={18} className="mr-2" />
-              View All Projects on GitHub
+              View My Projects on GitHub
             </a>
           </Button>
         </motion.div>
