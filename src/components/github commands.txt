@@ -3,3 +3,15 @@ git pull origin main
 git add .
 git commit -m "Updated feature / fixed bug"
 git push origin main
+
+Checking git status:
+git status
+
+
+Adding, checking and deleting remote access:
+git remote add origin <GitHub URL>
+git remote -v
+git remote remove origin <GitHub URL> (Shortened: git remote rm origin)
+
+if any conflict in pushing (branch diverged):
+git pull origin main --rebase
