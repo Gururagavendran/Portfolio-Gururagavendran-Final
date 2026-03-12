@@ -11,24 +11,19 @@ const skillCategories = [
   {
     title: "Frontend",
     color: "secondary",
-    skills: ["React", "Redux",  "Angular", "HTML/CSS"],
+    skills: ["React", "Redux Toolkit", "Angular", "Tailwind CSS"],
   },
   {
     title: "Backend",
     color: "accent",
-    skills: ["Node", "Express", "Spring Boot", "JWT", "Redux Toolkit"],
-  },
-  
-  {
-    title: "Database",
-    color: "accent",
-    skills: ["MySQL", "PostgreSQL", "MongoDB"],
+    skills: ["Node", "Express", "Spring Boot", "JWT"],
   },
 
+
   {
-    title: "Tools",
+    title: "Database & Tools",
     color: "primary",
-    skills: ["VS Code", "Git", "Docker", "Figma"],
+    skills: ["MySQL", "PostgreSQL", "MongoDB", "Tools: VS Code, Git, Docker"],
   },
 ];
 
@@ -109,13 +104,14 @@ const SkillsSection = () => {
             {[
               "Computer Vision",
               "REST APIs",
+              "Postman",
+              "Swagger",
               "Sourcetree",
               "SonarQube",
+              "Figma",
               "Canva",
               "OWASP ZAP",
-              "BMS Basics",
-              "Sony Vegas",
-              "Lovable"
+              "BMS Basics"
             ].map((tech, index) => (
               <motion.span
                 key={tech}
