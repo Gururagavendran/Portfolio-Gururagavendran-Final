@@ -14,7 +14,7 @@ const experiences = [
     location: "Chennai, India",
     description:
       "Working as Junior Java Developer at Rultosh Edufun. Wireframing and prototype design using Figma & Lovable.",
-    skills: ["TypeScript", "Java"],
+    skills: ["React", "TypeScript", "Java", "Spring Boot", "Redux" ,"Figma", "Lovable"],
     isCurrent: true,
   },
   {
@@ -27,7 +27,7 @@ const experiences = [
     location: "Chennai, India",
     description:
       "Project: Venture Debt Fund & Incubator (VCF-VD). Worked as a Junior Developer (Trainee), in contract with SIDBI under the VCF-VD client-assigned project.",
-    skills: [],
+    skills: ["React", "TypeScript", "Java", "Figma", "Lovable"],
     isCurrent: false,
   },
   {
