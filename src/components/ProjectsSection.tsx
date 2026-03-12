@@ -1,7 +1,7 @@
 import { motion } from "framer-motion";
 import { useInView } from "framer-motion";
 import { useRef } from "react";
-import { ExternalLink, Github, Battery, Camera, Users, Leaf, Globe } from "lucide-react";
+import { ExternalLink, Github, Battery, Camera, Users, Leaf, Globe, Vegan, BikeIcon } from "lucide-react";
 import { Button } from "@/components/ui/button";
 
 const projects = [
@@ -19,7 +19,35 @@ const projects = [
       "Ongoing research papers presented at ICCCES & ICVADV 2026",
     ],
   },
+{
+  title: "SurveyScope Survey Platform for HR and Employees",
+    description:
+      "Developed during my project internship at Touchmark Descience, this project involved building a cloud-based web survey platform that helps HR teams measure employee satisfaction. It integrates LLM-based analysis to extract behavioral and psychological insights from survey responses. The platform features a user-friendly interface for creating and distributing surveys, as well as advanced analytics to identify trends and actionable insights for improving workplace culture and employee engagement.",
+    tags: ["React", "Node", "PostgreSQL", "Gemini API", "LLM", "Supabase"],
+    icon: Users,
+    gradient: "from-secondary/20 to-primary/20",
+    highlights: [
+      "web-based survey platform for effective employee feedback collection",
+      "HR-driven analysis of employee satisfaction and workplace sentiment",
+      "Integrated LLM capabilities to analyze behavioral patterns in responses",
+    ],
+}, 
+
   {
+     title: "Computer-vision based Potato Sampling",
+    description:
+      "Developed during my internship at Rultosh Edufun, this project focuses on building an IoT-enabled computer vision system using Raspberry Pi to automate the detection and classification of potatoes on a conveyor belt. The system uses YOLOv8 for real-time object detection and a classification model to grade potatoes based on their size. This solution aims to improve efficiency and accuracy in agricultural processing by reducing manual labor and minimizing errors in sorting.",
+    tags: ["Python", "OpenCV", "Computer Vision", "YOLO"],
+    icon: Vegan,
+    gradient: "from-secondary/20 to-primary/20",
+    highlights: [
+      "Size-based potato classification",
+      "IoT-enabled real-time detection",
+      "Motion tracking",
+    ],
+  },
+
+   {
     title: "Hydroponics Development",
     description:
       "This project is under early development. Our objective is to bring economical but high yield crop growth solution to the market using Hydroponics setup. Currently working on the POC.",
@@ -32,6 +60,7 @@ const projects = [
       "POC in development",
     ],
   },
+
   {
     title: "Professional Portfolio Website",
     description:
@@ -59,12 +88,14 @@ const projects = [
       "Motion tracking",
     ],
   },
+
+
   {
     title: "Celtic Falcons - Rider Community",
     description:
       "Created a modern, responsive platform for bikers to connect globally. Built with React and MERN stack, featuring a visually stunning UI that showcases community features.",
     tags: ["React", "MERN", "SQL", "CSS"],
-    icon: Users,
+    icon: BikeIcon,
     gradient: "from-accent/20 to-secondary/20",
     highlights: [
       "Global community platform",

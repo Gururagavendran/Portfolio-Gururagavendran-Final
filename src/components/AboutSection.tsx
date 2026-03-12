@@ -116,7 +116,7 @@ const AboutSection = () => {
               About <span className="gradient-text">Me</span>
             </h2>
             
-            <p className="text-lg mb-6 leading-relaxed text-justify text-primary-foreground"> <span className="text-primary font-medium">Junior Java Developer </span>  at <span className="text-accent font-medium">Rultosh Edufun</span> 
+            <p className="text-lg mb-6 leading-relaxed text-justify text-primary-foreground"> <span className="text-primary font-medium">Junior Java Developer </span>  at <span className="text-accent font-medium">Rultosh Edufun</span>, currently working in <span className="text-primary font-medium"> Venture Capitalist-Debt Fund </span> & <span className="text-accent font-medium">Incubator Seed Fund</span> digital platforms in contract with Small Industries Development Bank of India (SIDBI). 
               <span className="text-lg mb-6 leading-relaxed text-justify text-primary-foreground">. <span className="text-primary font-medium"> Co-Founder, CEO </span> of <span className="text-primary font-medium"> Trovic Technologies </span> 
               </span> — <span className="text-lg mb-6 leading-relaxed text-justify text-primary-foreground">an IT startup offering <span className="text-primary font-medium"> software </span> & <span className="text-primary font-medium"> 
               AI solutions </span> across various domains such as <span className="text-accent font-medium"> Agritech</span>, 
