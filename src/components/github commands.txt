@@ -1,3 +1,7 @@
+Setting up a repository:
+git init
+git clone [url]
+
 When updating local repo changes to github:
 git pull origin main
 git add .
@@ -6,7 +10,6 @@ git push origin main
 
 Checking git status:
 git status
-
 
 Adding, checking and deleting remote access:
 git remote add origin <GitHub URL>
