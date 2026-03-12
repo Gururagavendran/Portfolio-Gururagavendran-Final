@@ -81,9 +81,10 @@ const HeroSection = () => {
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.6, delay: 0.3 }}
             className="text-lg text-muted-foreground/80 mb-12 max-w-xl mx-auto">
-          Passionate about building tech-driven solutions with creativity and collaboration. 
-          Hands-on experience building real-world projects across fintech, electronics and agritech domains, 
-          spanning full-stack web development, computer vision and battery management systems.
+          Passionate about building software solutions with creativity and collaboration. 
+          Building scalable solutions to real-world problems
+          across fintech, electronics and agritech domains, 
+          spanning full-stack development, computer vision and battery management systems.
           </motion.p>
 
           {/* CTA Buttons */}
