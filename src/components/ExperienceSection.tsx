@@ -14,7 +14,7 @@ const experiences = [
     location: "Chennai, India",
     description:
       "Working as Junior Java Developer at Rultosh Edufun. Wireframing and prototype design using Figma & Lovable.",
-    skills: ["TypeScript", "Java", ""],
+    skills: ["TypeScript", "Java"],
     isCurrent: true,
   },
   {
