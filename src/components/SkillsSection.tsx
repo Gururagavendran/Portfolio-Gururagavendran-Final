@@ -11,13 +11,20 @@ const skillCategories = [
   {
     title: "Frontend",
     color: "secondary",
-    skills: ["React", "AngularJS", "HTML/CSS"],
+    skills: ["React", "Redux",  "Angular", "HTML/CSS"],
   },
   {
     title: "Backend",
     color: "accent",
-    skills: ["Node.js", "Express", "SQL"],
+    skills: ["Node", "Express", "Spring Boot", "JWT", "Redux Toolkit"],
   },
+  
+  {
+    title: "Database",
+    color: "accent",
+    skills: ["MySQL", "PostgreSQL", "MongoDB"],
+  },
+
   {
     title: "Tools",
     color: "primary",
