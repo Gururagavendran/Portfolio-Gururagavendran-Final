@@ -1,6 +1,6 @@
 Setting up a repository:
 git init
-git clone [url]
+git clone <repository-url>
 
 When updating local repo changes to github:
 git pull origin main
@@ -14,7 +14,8 @@ git status
 Adding, checking and deleting remote access:
 git remote add origin <GitHub URL>
 git remote -v
-git remote remove origin <GitHub URL> (Shortened: git remote rm origin)
+git remote remove origin (Shortened: git remote rm origin)
 
 if any conflict in pushing (branch diverged):
 git pull origin main --rebase
+git push origin main
