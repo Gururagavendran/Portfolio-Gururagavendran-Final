@@ -1,0 +1,5 @@
+When updating local repo changes to github:
+git pull origin main
+git add .
+git commit -m "Updated feature / fixed bug"
+git push origin main
