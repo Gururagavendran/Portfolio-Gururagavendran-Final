@@ -66,7 +66,7 @@ const AboutSection = () => {
                   <p className="text-muted-foreground mb-4"> Software Developer (MERN/Java)</p>
                   <div className="flex items-center justify-center gap-2 text-sm flex-wrap">
                     <span className="px-3 py-1 rounded-full bg-primary/20 text-primary">Rultosh Edufun</span>
-                    <span className="px-3 py-1 rounded-full bg-secondary/20 text-secondary">Trovic Technologies</span>
+                    <span className="px-3 py-1 rounded-full bg-secondary/20 text-secondary">B2G Fintech Solutions</span>
                   </div>
                 </div>
               </div>
