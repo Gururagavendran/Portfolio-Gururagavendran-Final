@@ -6,7 +6,7 @@ import { FileText, ExternalLink } from "lucide-react";
 const publications = [
   {
     title: "Real-Time Monitoring System For Battery SOC Prediction and Metrics Analysis using ML Techniques",
-    status: "Presented at ICCCES 2026 (ISBN-indexed); IEEE publication under process.",
+    status: "Published in IEEE Xplore, ICCCES-2026 (DOI: 10.1109/ICCCES62661.2026.11437172)",
     abstract:
       "Developed an intelligent IoT-based battery monitoring system for electric vehicles and energy storage that estimates State of Charge (SOC), State of Health (SOH), and Remaining Useful Life (RUL). Implemented edge-computing architecture with React visualization, evaluating five ML algorithms. The EA-Random Forest hybrid achieved 85% predictive accuracy, outperforming conventional methods.",
   },

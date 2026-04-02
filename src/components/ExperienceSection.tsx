@@ -13,7 +13,7 @@ const experiences = [
     mode: "On-site",
     location: "Chennai, India",
     description:
-      "Working as Junior Java Developer at Rultosh Edufun. Wireframing and prototype design using Figma & Lovable.",
+      "Working as Junior Java Developer at Rultosh Edufun delivering software based B2G Fintech solutions, wireframing and prototype design using Figma & Lovable, React based frontend development (JavaScript/Typescript) & Java-based backend development, Database management with PostgreSQL & Oracle.",
     skills: ["React", "TypeScript", "Java", "Spring Boot", "Redux" ,"PostgreSQL"],
     isCurrent: true,
   },
