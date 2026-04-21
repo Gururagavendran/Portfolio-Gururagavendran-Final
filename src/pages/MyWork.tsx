@@ -30,7 +30,6 @@ const MyWork = () => {
 
       <main className="pt-20">
         <ProjectsSection />
-        <ExperienceSection />
         <PublicationsSection />
       </main>
     </div>
