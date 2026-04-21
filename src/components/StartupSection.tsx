@@ -139,9 +139,7 @@ const StartupSection = () => {
             animate={isInView ? { opacity: 1, x: 0 } : {}}
             transition={{ duration: 0.6, delay: 0.2 }}>
             
-            <h2 className="font-display gradient-text text-4xl md:text-5xl font-bold mb-6">
-              TROVIC <span className="font-display ">Technologies</span>
-            </h2>
+          
             
             <p className="text-lg mb-6 leading-relaxed text-justify text-primary-foreground"> At <span className="text-primary font-medium"> Trovic Technologies </span> we offer <span className="text-lg mb-6 leading-relaxed text-justify text-primary-foreground"> <span className="text-primary font-medium"> software </span> & <span className="text-primary font-medium"> 
               AI solutions </span> across various domains such as <span className="text-accent font-medium"> Agritech</span>, 
