@@ -26,7 +26,7 @@ const experiences = [
     mode: "Hybrid",
     location: "Chennai, India",
     description:
-      "Project: Venture Debt Fund & Incubator (VCF-VD). Worked as a Junior Developer (Trainee), in contract with SIDBI under the VCF-VD client-assigned project.",
+      "Project: Venture Debt Fund & Incubator (VCF-VD & ISFP). Worked as a Junior Developer (Trainee) at Rultosh Edufun in contract with SIDBI under the VCF-VD & ISFP projects.",
     skills: ["React", "TypeScript", "Figma", "Lovable"],
     isCurrent: false,
   },
