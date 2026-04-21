@@ -97,6 +97,9 @@ const HeroSection = () => {
             <Button variant="hero" size="xl" asChild>
               <Link to="/my-work">View My Work</Link>
             </Button>
+            <Button variant="hero" size="xl" asChild>
+             <Link to="/startup">Startup Idea</Link>
+            </Button>
             <Button variant="heroOutline" size="xl" asChild>
               <a href="#contact">Get In Touch</a>
             </Button>
