@@ -1,7 +1,7 @@
 import { motion } from "framer-motion";
 import { useInView } from "framer-motion";
 import { useRef } from "react";
-import { Users, Lightbulb, BookOpen, MessageCircle } from "lucide-react";
+import { Users, Lightbulb, BookOpen, MessageCircle, Briefcase, GraduationCap } from "lucide-react";
 import profileImage from "@/assets/profile.png";
 import { Cog, Laptop } from "lucide-react";
 
@@ -117,10 +117,6 @@ const AboutSection = () => {
             </h2>
             
             <p className="text-lg mb-6 leading-relaxed text-justify text-primary-foreground"> <span className="text-primary font-medium">Junior Java Developer </span>  at <span className="text-accent font-medium">Rultosh Edufun</span>, currently working in <span className="text-primary font-medium"> Venture Capitalist-Debt Fund </span> & <span className="text-accent font-medium">Incubator Seed Fund</span> digital platforms in contract with Small Industries Development Bank of India (SIDBI). 
-              <span className="text-lg mb-6 leading-relaxed text-justify text-primary-foreground">. <span className="text-primary font-medium"> Co-Founder, CEO </span> of <span className="text-primary font-medium"> Trovic Technologies </span> 
-              </span> — <span className="text-lg mb-6 leading-relaxed text-justify text-primary-foreground">an IT startup offering <span className="text-primary font-medium"> software </span> & <span className="text-primary font-medium"> 
-              AI solutions </span> across various domains such as <span className="text-accent font-medium"> Agritech</span>, 
-              <span className="text-accent font-medium"> Electronics</span>, and more. </span>
               Eager to grow as a Software Developer with a keen interest in designing, bringing strong 
               skills in communication, technical adaptability, coding, and creativity.
             </p>
@@ -135,21 +131,36 @@ const AboutSection = () => {
              {/* Work Experience */}
             <div className="glass-card rounded-xl p-5 mb-8 glow-border">
               <h4 className="font-display font-semibold text-lg mb-3 flex items-center gap-2">
-                💼 <span className="gradient-text">Experience</span>
+                <span className="text-2xl"><Briefcase size={18} color="red"/></span> <span className="gradient-text">Experience</span>
               </h4>
               <div className="space-y-2">
                 <div className="flex items-start gap-3">
                   <span className="w-1.5 h-1.5 rounded-full bg-primary mt-2 shrink-0" />
                   <p className="text-sm text-muted-foreground">
-                    <span className="text-foreground font-medium">Junior Java Developer </span> · Rultosh Edufun
+                    <span className="text-foreground font-medium">Junior Java Developer </span> · Rultosh Edufun · <span className="text-primary font-medium"> Current</span>
                   </p>
                 </div>
+
+
+  
+              </div>
+               <div className="space-y-2">
                 <div className="flex items-start gap-3">
-                  <span className="w-1.5 h-1.5 rounded-full bg-secondary mt-2 shrink-0" />
+                  <span className="w-1.5 h-1.5 rounded-full bg-primary mt-2 shrink-0" />
                   <p className="text-sm text-muted-foreground">
-                    <span className="text-foreground font-medium">Co-founder, CEO</span> · Trovic Technologies
+                    <span className="text-foreground font-medium">Summer Intern </span> · Iagami Technologies · <span className="text-accent font-medium"> Ex-Intern</span>
                   </p>
                 </div>
+
+                </div>
+               <div className="space-y-2">
+                <div className="flex items-start gap-3">
+                  <span className="w-1.5 h-1.5 rounded-full bg-primary mt-2 shrink-0" />
+                  <p className="text-sm text-muted-foreground">
+                    <span className="text-foreground font-medium">Project Intern </span> · Touchmark Descience, Rultosh Edufun  · <span className="text-accent font-medium"> Ex-Intern</span>
+                  </p>
+                </div>
+                
 
   
               </div>
@@ -161,7 +172,7 @@ const AboutSection = () => {
              {/* Education */}
             <div className="glass-card rounded-xl p-5 mb-8 glow-border">
               <h4 className="font-display font-semibold text-lg mb-3 flex items-center gap-2">
-                🎓 <span className="gradient-text">Education</span>
+                <span className="text-2xl"><GraduationCap size={18} color="red"/></span> <span className="gradient-text">Education</span>
               </h4>
               <div className="space-y-2">
                 <div className="flex items-start gap-3">
