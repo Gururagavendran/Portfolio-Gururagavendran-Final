@@ -154,7 +154,7 @@ const StartupSection = () => {
             </p>
 
             {/* Domains Offered */}
-            <div className="mb-8">
+            <div className="border border-primary/30 rounded-xl p-6 mb-8 bg-gradient-to-br from-primary/5 to-secondary/5">
               <h4 className="font-display font-semibold text-lg mb-6 flex items-center gap-2">
                 <Globe size={20} className="text-primary" /> <span className="gradient-text">Domains Offered</span>
               </h4>
