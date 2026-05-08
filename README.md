@@ -3,23 +3,24 @@ This is my personal developer portfolio, built to showcase my projects, skills, 
 🔗 Live Demo:
 https://gururagavendran.github.io/Portfolio-Gururagavendran-Final/
 
-✨ Features
-🎨 Modern and responsive UI design
-⚡ Smooth animations using Framer Motion
-🧭 Seamless navigation with React Router
-🧩 Component-based architecture
-📱 Fully responsive across devices
-🖼️ Project showcase section
-📄 About me & skills overview
+✨ Features:
+ Modern and responsive UI design
+ Smooth animations using Framer Motion
+ Seamless navigation with React Router
+ Component-based architecture
+ Fully responsive across devices
+ Project showcase section
+ About me & skills overview
 
-🛠️ Tech Stack
-Frontend: React 18 + TypeScript (TSX)
-Build Tool: Vite
-Styling: Tailwind CSS
-UI Components: shadcn/ui
-Animations: Framer Motion
-Routing: React Router
-Icons: Lucide React
+🛠️ Tech Stack:
+  Frontend: React 18 + TypeScript (TSX)
+  Build Tool: Vite
+  Styling: Tailwind CSS
+  UI Components: shadcn/ui
+  Animations: Framer Motion
+  Routing: React Router
+  Icons: Lucide React
+
 📁 Project Structure
 src/
 ├── assets/        # Static assets (images, icons, fonts)
@@ -32,6 +33,7 @@ src/
 ├── App.tsx        # Root component
 ├── index.css      # Base styles (Tailwind imports)
 └── main.tsx       # Application entry point
+
 🚀 Getting Started
 
 To run this project locally:
