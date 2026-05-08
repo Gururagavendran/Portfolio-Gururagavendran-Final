@@ -36,16 +36,16 @@ https://gururagavendran.github.io/Portfolio-Gururagavendran-Final/
 
 📁 Project Structure
 src/
-├── assets/        # Static assets (images, icons, fonts)
-├── components/    # Reusable UI components
-├── hooks/         # Custom React hooks
-├── lib/           # Utility functions & helper modules
-├── pages/         # Application pages (routes/screens)
-├── test/          # Test files and testing utilities
-├── App.css        # Global/app-level styles
-├── App.tsx        # Root component
-├── index.css      # Base styles (Tailwind imports)
-└── main.tsx       # Application entry point
+├── assets/        # Static assets (images, icons, fonts)\
+├── components/    # Reusable UI components\
+├── hooks/         # Custom React hooks\
+├── lib/           # Utility functions & helper modules\
+├── pages/         # Application pages (routes/screens)\
+├── test/          # Test files and testing utilities\
+├── App.css        # Global/app-level styles\
+├── App.tsx        # Root component\
+├── index.css      # Base styles (Tailwind imports)\
+└── main.tsx       # Application entry point\
 
 
 To run this project locally:
