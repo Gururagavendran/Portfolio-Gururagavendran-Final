@@ -8,6 +8,16 @@ https://gururagavendran.github.io/Portfolio-Gururagavendran-Final/
 2. Smooth animations using Framer Motion
 3. Seamless navigation with React Router
 4. Component-based architecture
+5. UI enhancement with shadcn/ui and lucide
+
+🛠️ Tech Stack:
+1. Frontend: React 18 + TypeScript (TSX)
+2.  Styling: Tailwind CSS
+3.  UI Components: shadcn/ui
+4.  Animations: Framer Motion R
+5.  Routing: React Router
+6.  Icons: Lucide React
+7.  Build Tool: Vite
 
 🔖 Sections:
 1. Hero - homepage and sections
@@ -25,15 +35,6 @@ https://gururagavendran.github.io/Portfolio-Gururagavendran-Final/
 2. My work
 3. Startup
    
-🛠️ Tech Stack:
-1. Frontend: React 18 + TypeScript (TSX)
-2. Build Tool: Vite
-3. Styling: Tailwind CSS
-4. UI Components: shadcn/ui
-5. Animations: Framer Motion
-6. Routing: React Router
-7. Icons: Lucide React
-
 📁 Project Structure\
 src/\
 ├── assets/        # Static assets (images, icons, fonts)\
