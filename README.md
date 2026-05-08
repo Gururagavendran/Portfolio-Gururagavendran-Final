@@ -65,6 +65,7 @@ npm run dev
 🤝 Connect with Me\
    LinkedIn: https://www.linkedin.com/in/gururagavendran-g-62a023261/ \
    email ID: gururagavendran52@gmail.com 
+   
 Feel free to reach out for collaboration, opportunities, or discussions!
 
 ⭐ Support
