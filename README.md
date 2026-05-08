@@ -10,15 +10,15 @@ https://gururagavendran.github.io/Portfolio-Gururagavendran-Final/
 4. Component-based architecture
 
 Sections:
-Hero - landing page
-About - Background & introduction, interests & passion, career goals
-Skills - Programming languages, frameworks & tools, core concepts
-Projects - Project descriptions, tech stack used, live demos & GitHub links
-Experiences - Internships, roles & responsibilities, research
-Publications - Publications, research areas, key work
-Certifications & Events - Certifications, Events
-Contact - Email, LinkedIn, GitHub
-Resume - Download resume
+1. Hero - landing page
+2. About - Background & introduction, interests & passion, career goals
+3. Skills - Programming languages, frameworks & tools, core concepts
+4. Projects - Project descriptions, tech stack used, live demos & GitHub links
+5. Experiences - Internships, roles & responsibilities, research
+6. Publications - Publications, research areas, key works
+7. Certifications & Events - Certifications, Events
+8. Contact - Email, LinkedIn, GitHub
+9. Resume - Download resume
 
 Pages:
 1. Home page
@@ -26,13 +26,13 @@ Pages:
 3. Startup
    
 🛠️ Tech Stack:
-  Frontend: React 18 + TypeScript (TSX)
-  Build Tool: Vite
-  Styling: Tailwind CSS
-  UI Components: shadcn/ui
-  Animations: Framer Motion
-  Routing: React Router
-  Icons: Lucide React
+1. Frontend: React 18 + TypeScript (TSX)
+2. Build Tool: Vite
+3. Styling: Tailwind CSS
+4. UI Components: shadcn/ui
+5. Animations: Framer Motion
+6. Routing: React Router
+7. Icons: Lucide React
 
 📁 Project Structure
 src/
