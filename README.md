@@ -9,7 +9,7 @@ https://gururagavendran.github.io/Portfolio-Gururagavendran-Final/
 3. Seamless navigation with React Router
 4. Component-based architecture
 
-Sections:
+🔖 Sections:
 1. Hero - landing page
 2. About - Background & introduction, interests & passion, career goals
 3. Skills - Programming languages, frameworks & tools, core concepts
@@ -20,7 +20,7 @@ Sections:
 8. Contact - Email, LinkedIn, GitHub
 9. Resume - Download resume
 
-Pages:
+📑 Pages:
 1. Home page
 2. My work
 3. Startup
@@ -47,7 +47,6 @@ src/
 ├── index.css      # Base styles (Tailwind imports)
 └── main.tsx       # Application entry point
 
-🚀 Getting Started
 
 To run this project locally:
 
