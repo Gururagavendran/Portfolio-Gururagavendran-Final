@@ -61,14 +61,10 @@ npm install
 
 # Start development server
 npm run dev
-📌 Future Improvements
-Add blog/articles section
-Integrate backend for contact form
-Improve SEO optimization
-Add project filtering and search
-🤝 Connect with Me
-   LinkedIn: https://www.linkedin.com/in/gururagavendran-g-62a023261/
-   email ID: gururagavendran52@gmail.com
+
+🤝 Connect with Me\
+   LinkedIn: https://www.linkedin.com/in/gururagavendran-g-62a023261/ \
+   email ID: gururagavendran52@gmail.com \
 
 Feel free to reach out for collaboration, opportunities, or discussions!
 
