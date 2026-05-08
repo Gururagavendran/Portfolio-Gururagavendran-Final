@@ -10,7 +10,7 @@ https://gururagavendran.github.io/Portfolio-Gururagavendran-Final/
 4. Component-based architecture
 
 🔖 Sections:
-1. Hero - landing page
+1. Hero - homepage and sections
 2. About - Background & introduction, interests & passion, career goals
 3. Skills - Programming languages, frameworks & tools, core concepts
 4. Projects - Project descriptions, tech stack used, live demos & GitHub links
