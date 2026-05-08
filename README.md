@@ -34,8 +34,8 @@ https://gururagavendran.github.io/Portfolio-Gururagavendran-Final/
 6. Routing: React Router
 7. Icons: Lucide React
 
-📁 Project Structure
-src/
+📁 Project Structure\
+src/\
 ├── assets/        # Static assets (images, icons, fonts)\
 ├── components/    # Reusable UI components\
 ├── hooks/         # Custom React hooks\
@@ -45,7 +45,7 @@ src/
 ├── App.css        # Global/app-level styles\
 ├── App.tsx        # Root component\
 ├── index.css      # Base styles (Tailwind imports)\
-└── main.tsx       # Application entry point\
+└── main.tsx       # Application entry point
 
 
 To run this project locally:
