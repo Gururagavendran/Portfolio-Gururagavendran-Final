@@ -11,6 +11,7 @@ https://gururagavendran.github.io/Portfolio-Gururagavendran-Final/
 📱 Fully responsive across devices
 🖼️ Project showcase section
 📄 About me & skills overview
+
 🛠️ Tech Stack
 Frontend: React 18 + TypeScript (TSX)
 Build Tool: Vite
@@ -21,12 +22,16 @@ Routing: React Router
 Icons: Lucide React
 📁 Project Structure
 src/
-├── components/     # Reusable UI components
-├── pages/          # Application pages
-├── assets/         # Images & static files
-├── hooks/          # Custom React hooks
-├── lib/            # Utility functions
-└── App.tsx         # Main app entry
+├── assets/        # Static assets (images, icons, fonts)
+├── components/    # Reusable UI components
+├── hooks/         # Custom React hooks
+├── lib/           # Utility functions & helper modules
+├── pages/         # Application pages (routes/screens)
+├── test/          # Test files and testing utilities
+├── App.css        # Global/app-level styles
+├── App.tsx        # Root component
+├── index.css      # Base styles (Tailwind imports)
+└── main.tsx       # Application entry point
 🚀 Getting Started
 
 To run this project locally:
@@ -48,6 +53,8 @@ Integrate backend for contact form
 Improve SEO optimization
 Add project filtering and search
 🤝 Connect with Me
+LinkedIn: https://www.linkedin.com/in/gururagavendran-g-62a023261/
+email ID: gururagavendran52@gmail.com
 
 Feel free to reach out for collaboration, opportunities, or discussions!
 
