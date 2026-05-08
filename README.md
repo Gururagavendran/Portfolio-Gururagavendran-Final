@@ -3,15 +3,28 @@ This is my personal developer portfolio, built to showcase my projects, skills, 
 🔗 Live Demo:
 https://gururagavendran.github.io/Portfolio-Gururagavendran-Final/
 
-✨ Features
-🎨 Modern and responsive UI design
-⚡ Smooth animations using Framer Motion
-🧭 Seamless navigation with React Router
-🧩 Component-based architecture
-📱 Fully responsive across devices
-🖼️ Project showcase section
-📄 About me & skills overview
+✨ Features:
+1. Modern and responsive UI design
+2. Smooth animations using Framer Motion
+3. Seamless navigation with React Router
+4. Component-based architecture
 
+Sections:
+Hero - landing page
+About - Background & introduction, interests & passion, career goals
+Skills - Programming languages, frameworks & tools, core concepts
+Projects - Project descriptions, tech stack used, live demos & GitHub links
+Experiences - Internships, roles & responsibilities, research
+Publications - Publications, research areas, key work
+Certifications & Events - Certifications, Events
+Contact - Email, LinkedIn, GitHub
+Resume - Download resume
+
+Pages:
+1. Home page
+2. My work
+3. Startup
+   
 🛠️ Tech Stack:
   Frontend: React 18 + TypeScript (TSX)
   Build Tool: Vite
